@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Robot type="FirstInspires-FTC">
+    <LynxUsbDevice name="LeftSide Hub" serialNumber="DQ2G339T" parentModuleAddress="1">
+        <LynxModule name="Right Hub portal" port="1">
+            <Matrix12vMotor name="BL" port="0" />
+            <Matrix12vMotor name="intakeLeft" port="1" />
+            <Matrix12vMotor name="elbow" port="2" />
+            <Matrix12vMotor name="FL" port="3" />
+            <Servo name="leftFoundation" port="2" />
+            <Servo name="rightFoundation" port="3" />
+            <Servo name="wristServo" port="4" />
+            <Servo name="ElbowLeft" port="5" />
+            <LynxEmbeddedIMU name="imu" port="0" bus="0" />
+            <REV_VL53L0X_RANGE_SENSOR name="sensorFR" port="0" bus="2" />
+        </LynxModule>
+    </LynxUsbDevice>
+    <Webcam name="Webcam 2" serialNumber="7766F210" />
+    <LynxUsbDevice name="RightSide Hub" serialNumber="DQ2F0DV8" parentModuleAddress="2">
+        <LynxModule name="Left Hub portal" port="2">
+            <Matrix12vMotor name="shoulder" port="0" />
+            <Matrix12vMotor name="FR" port="1" />
+            <Matrix12vMotor name="BR" port="2" />
+            <Matrix12vMotor name="intakeRight" port="3" />
+            <Servo name="clamp" port="0" />
+            <Servo name="ElbowRight" port="1" />
+            <LynxEmbeddedIMU name="imu 1" port="0" bus="0" />
+            <REV_VL53L0X_RANGE_SENSOR name="sensorFront" port="0" bus="1" />
+        </LynxModule>
+    </LynxUsbDevice>
+    <Webcam name="Webcam 1" serialNumber="781AEFD0" />
+</Robot>
