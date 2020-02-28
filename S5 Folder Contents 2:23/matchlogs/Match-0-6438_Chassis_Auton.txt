@@ -1,0 +1,1251 @@
+--------- beginning of main
+01-17 23:22:20.579 14086 14086 I chatty  : uid=10080(com.qualcomm.ftcrobotcontroller) default threadp expire 8 lines
+01-17 23:22:21.476 13603 14132 I chatty  : uid=10080(com.qualcomm.ftcrobotcontroller) default threadp expire 3 lines
+01-17 23:22:21.485 13603 14083 D libusb  : [2879.952751] [00003703] libusb: debug [op_get_config_descriptor] op_get_config_descriptor: config_index=0
+01-17 23:22:21.491 13603 14083 D Uvc     : [device.cpp:986] uvc_scan_control()...
+01-17 23:22:21.491 13603 14083 D Uvc     : [device.cpp:1041] uvc_parse_vc_header()...
+01-17 23:22:21.491 13603 14083 D Uvc     : [device.cpp:1284] uvc_scan_streaming()...
+01-17 23:22:21.491 13603 14083 D Uvc     : [device.cpp:1340] uvc_parse_vs_input_header()...
+01-17 23:22:21.491 13603 14083 D Uvc     : [device.cpp:1340] ...uvc_parse_vs_input_header() rc=0
+01-17 23:22:21.491 13603 14083 D Uvc     : [device.cpp:1389] uvc_parse_vs_format_uncompressed()...
+01-17 23:22:21.491 13603 14083 D Uvc     : [device.cpp:1389] ...uvc_parse_vs_format_uncompressed() rc=0
+01-17 23:22:21.491 13603 14083 V Uvc     : [device.cpp:1630] unsupported descriptor subtype: 13 UVC_VS_COLORFORMAT
+01-17 23:22:21.491 13603 14083 D Uvc     : [device.cpp:1449] uvc_parse_vs_format_mjpeg()...
+01-17 23:22:21.491 13603 14083 D Uvc     : [device.cpp:1449] ...uvc_parse_vs_format_mjpeg() rc=0
+01-17 23:22:21.491 13603 14083 V Uvc     : [device.cpp:1630] unsupported descriptor subtype: 13 UVC_VS_COLORFORMAT
+01-17 23:22:21.491 13603 14083 D Uvc     : [device.cpp:1284] ...uvc_scan_streaming() rc=0
+01-17 23:22:21.491 13603 14083 D Uvc     : [device.cpp:1041] ...uvc_parse_vc_header() rc=0
+01-17 23:22:21.491 13603 14083 D Uvc     : [device.cpp:1083] uvc_parse_vc_input_terminal()...
+01-17 23:22:21.491 13603 14083 D Uvc     : [device.cpp:1083] ...uvc_parse_vc_input_terminal() rc=0
+01-17 23:22:21.491 13603 14083 D Uvc     : [device.cpp:1156] uvc_parse_vc_processing_unit()...
+01-17 23:22:21.491 13603 14083 D Uvc     : [device.cpp:1156] ...uvc_parse_vc_processing_unit() rc=0
+01-17 23:22:21.491 13603 14083 D Uvc     : [device.cpp:986] ...uvc_scan_control() rc=0
+01-17 23:22:21.491 13603 14083 D Uvc     : [device.cpp:386] ...uvc_get_device_info() rc=0
+01-17 23:22:21.491 13603 14083 V Uvc     : API: Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcDevice_nativeGetDeviceInfo: ...exit
+01-17 23:22:21.491 13603 14083 D Uvc     : [jni_device.cpp:297] ...Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcDevice_nativeGetDeviceInfo()
+01-17 23:22:21.495 13603 14083 V UvcDeviceInfo: construct(pointer=0x8ecb6c10)
+01-17 23:22:21.495 13603 14083 V UvcStreamingInterface: construct(pointer=0x842d7ac0)
+01-17 23:22:21.496 13603 14082 V IMU     : dt=0.018s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:21.514 13603 14082 V IMU     : dt=0.019s accel=(0.360 0.010 0.000)m/s^2
+01-17 23:22:21.529 13603 14082 V IMU     : dt=0.015s accel=(0.360 0.020 0.000)m/s^2
+01-17 23:22:21.544 13603 14082 V IMU     : dt=0.015s accel=(0.370 -0.070 0.000)m/s^2
+01-17 23:22:21.562 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.080 0.000)m/s^2
+01-17 23:22:21.578 13603 14082 V IMU     : dt=0.016s accel=(0.370 -0.060 0.000)m/s^2
+01-17 23:22:21.592 13603 14082 V IMU     : dt=0.015s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:21.608 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.010 -0.010)m/s^2
+01-17 23:22:21.622 13603 14082 V IMU     : dt=0.015s accel=(0.370 0.020 -0.010)m/s^2
+01-17 23:22:21.635 13603 14083 V UvcStreamingInterface: destroy(pointer=0x842d7ac0)
+01-17 23:22:21.637 13603 14082 V IMU     : dt=0.015s accel=(0.380 0.020 0.000)m/s^2
+01-17 23:22:21.640 13603 14083 V UvcDeviceInfo: destroy(pointer=0x8ecb6c10)
+01-17 23:22:21.640 13603 14083 D Uvc     : [jni_deviceinfo.cpp:63] Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcDeviceInfo_nativeFreeDeviceInfo()...
+01-17 23:22:21.640 13603 14083 V Uvc     : API: Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcDeviceInfo_nativeFreeDeviceInfo: enter...
+01-17 23:22:21.640 13603 14083 D Uvc     : [device.cpp:433] uvc_free_device_info()...
+01-17 23:22:21.641 13603 14083 D Uvc     : [device.cpp:433] ...uvc_free_device_info()
+01-17 23:22:21.641 13603 14083 V Uvc     : API: Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcDeviceInfo_nativeFreeDeviceInfo: ...exit
+01-17 23:22:21.641 13603 14083 D Uvc     : [jni_deviceinfo.cpp:63] ...Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcDeviceInfo_nativeFreeDeviceInfo()
+01-17 23:22:21.642 13603 14083 V UvcApiCameraCharacteristicsBuilder: destroy(hash=0x0966a9f4)
+01-17 23:22:21.642 13603 14083 V UvcDevice: destroy(pointer=0xa999c998|/dev/bus/usb/001/005)
+01-17 23:22:21.642 13603 14083 D Uvc     : [jni_device.cpp:126] Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcDevice_nativeReleaseRefDevice()...
+01-17 23:22:21.642 13603 14083 V Uvc     : API: Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcDevice_nativeReleaseRefDevice: enter...
+01-17 23:22:21.642 13603 14083 D Uvc     : [device.cpp:882] uvc_unref_device()...
+01-17 23:22:21.642 13603 14083 D Uvc     : [device.cpp:882] ...uvc_unref_device()
+01-17 23:22:21.642 13603 14083 V Uvc     : API: Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcDevice_nativeReleaseRefDevice: ...exit
+01-17 23:22:21.642 13603 14083 D Uvc     : [jni_device.cpp:126] ...Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcDevice_nativeReleaseRefDevice()
+01-17 23:22:21.642 13603 14083 V LibUsbDevice: destroy(pointer=0xa7a37100)
+01-17 23:22:21.642 13603 14083 D Uvc     : [jni_libusb_device.cpp:64] Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_LibUsbDevice_nativeReleaseRefDevice()...
+01-17 23:22:21.642 13603 14083 D Uvc     : [jni_libusb_device.cpp:64] ...Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_LibUsbDevice_nativeReleaseRefDevice()
+01-17 23:22:21.644 13603 14083 D CameraCalibrationManager: CameraCalibration(VendorProductCalibrationIdentity(vid=0x046d,pid=0x082c) 320x240)=null
+01-17 23:22:21.644 13603 14083 D CameraCalibrationManager: CameraCalibration(VendorProductCalibrationIdentity(vid=0x046d,pid=0x082c) 960x720)=null
+01-17 23:22:21.645 13603 14083 D CameraCalibrationManager: CameraCalibration(VendorProductCalibrationIdentity(vid=0x046d,pid=0x082c) 1280x720)=null
+01-17 23:22:21.645 13603 14083 D CameraCalibrationManager: CameraCalibration(VendorProductCalibrationIdentity(vid=0x046d,pid=0x082c) 160x120)=null
+01-17 23:22:21.646 13603 14083 D CameraCalibrationManager: CameraCalibration(VendorProductCalibrationIdentity(vid=0x046d,pid=0x082c) 800x600)=null
+01-17 23:22:21.646 13603 14083 D CameraCalibrationManager: CameraCalibration(VendorProductCalibrationIdentity(vid=0x046d,pid=0x082c) 1920x1080)=null
+01-17 23:22:21.653 13603 14082 V IMU     : dt=0.015s accel=(0.380 0.000 0.000)m/s^2
+01-17 23:22:21.657 13603 14083 D CameraCalibrationManager: CameraCalibration(VendorProductCalibrationIdentity(vid=0x046d,pid=0x082c) 640x480)=null
+01-17 23:22:21.658 13603 14083 D CameraCalibrationManager: CameraCalibration(VendorProductCalibrationIdentity(vid=0x046d,pid=0x082c) 176x144)=null
+01-17 23:22:21.658 13603 14083 D CameraCalibrationManager: CameraCalibration(VendorProductCalibrationIdentity(vid=0x046d,pid=0x082c) 432x240)=null
+01-17 23:22:21.659 13603 14083 D CameraCalibrationManager: CameraCalibration(VendorProductCalibrationIdentity(vid=0x046d,pid=0x082c) 352x288)=null
+01-17 23:22:21.659 13603 14083 D CameraCalibrationManager: CameraCalibration(VendorProductCalibrationIdentity(vid=0x046d,pid=0x082c) 800x448)=null
+01-17 23:22:21.660 13603 14083 D CameraCalibrationManager: CameraCalibration(VendorProductCalibrationIdentity(vid=0x046d,pid=0x082c) 864x480)=null
+01-17 23:22:21.660 13603 14083 D CameraCalibrationManager: CameraCalibration(VendorProductCalibrationIdentity(vid=0x046d,pid=0x082c) 1024x576)=null
+01-17 23:22:21.666 13603 14083 D CameraCalibrationManager: CameraCalibration(VendorProductCalibrationIdentity(vid=0x046d,pid=0x082c) 1600x896)=null
+01-17 23:22:21.670 13603 14083 D CameraCalibrationManager: CameraCalibration(VendorProductCalibrationIdentity(vid=0x046d,pid=0x082c) 640x360)=null
+01-17 23:22:21.670 13603 14083 D VuforiaWebcam: ...openCamera()
+01-17 23:22:21.671 13603 14083 D VuforiaWebcam: ...nativeCallbackOpen()
+01-17 23:22:21.671 13603 14083 D Uvc     : [NativeVuforiaWebcam.h:289] ...NativeVuforiaWebcam::open()
+01-17 23:22:21.671 13603 14082 V IMU     : dt=0.018s accel=(0.370 -0.010 0.010)m/s^2
+01-17 23:22:21.672 13603 14083 D CachingExposureControl: isModeSupported(Auto)...
+01-17 23:22:21.672 13603 14083 D CachingExposureControl: ...isModeSupported(Auto): false
+01-17 23:22:21.672 13603 14083 D CachingExposureControl: isModeSupported(AperturePriority)...
+01-17 23:22:21.672 13603 14083 D CachingExposureControl: ...isModeSupported(AperturePriority): true
+01-17 23:22:21.673 13603 14083 D CachingExposureControl: isModeSupported(ContinuousAuto)...
+01-17 23:22:21.673 13603 14083 D CachingExposureControl: ...isModeSupported(ContinuousAuto): false
+01-17 23:22:21.673 13603 14083 D CachingExposureControl: isModeSupported(Manual)...
+01-17 23:22:21.673 13603 14083 D CachingExposureControl: ...isModeSupported(Manual): true
+01-17 23:22:21.673 13603 14083 D CachingExposureControl: isModeSupported(ShutterPriority)...
+01-17 23:22:21.673 13603 14083 D CachingExposureControl: ...isModeSupported(ShutterPriority): false
+01-17 23:22:21.683 13603 14083 D Uvc     : [NativeVuforiaWebcam.h:515] NativeVuforiaWebcam::supportsExposureValue()...
+01-17 23:22:21.683 13603 14083 D Uvc     : [NativeVuforiaWebcam.h:515] ...NativeVuforiaWebcam::supportsExposureValue()
+01-17 23:22:21.683 13603 14083 D Uvc     : [NativeVuforiaWebcam.h:579] NativeVuforiaWebcam::supportsFocusValue()...
+01-17 23:22:21.683 13603 14083 D Uvc     : [NativeVuforiaWebcam.h:579] ...NativeVuforiaWebcam::supportsFocusValue()
+01-17 23:22:21.687 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.020 0.010)m/s^2
+01-17 23:22:21.707 13603 14082 V IMU     : dt=0.020s accel=(0.360 -0.020 0.010)m/s^2
+01-17 23:22:21.723 13603 14082 V IMU     : dt=0.016s accel=(0.340 -0.010 0.000)m/s^2
+01-17 23:22:21.738 13603 14082 V IMU     : dt=0.015s accel=(0.360 0.020 0.000)m/s^2
+01-17 23:22:21.757 13603 14082 V IMU     : dt=0.019s accel=(0.380 0.020 0.000)m/s^2
+01-17 23:22:21.773 13603 14082 V IMU     : dt=0.016s accel=(0.380 0.000 0.000)m/s^2
+01-17 23:22:21.789 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 0.020)m/s^2
+01-17 23:22:21.804 13603 14082 V IMU     : dt=0.015s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:21.819 13603 14082 V IMU     : dt=0.015s accel=(0.380 0.000 0.000)m/s^2
+01-17 23:22:21.834 13603 14082 V IMU     : dt=0.015s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:21.849 13603 14082 V IMU     : dt=0.015s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:21.867 13603 14082 V IMU     : dt=0.018s accel=(0.360 0.000 -0.010)m/s^2
+01-17 23:22:21.884 13603 14082 V IMU     : dt=0.017s accel=(0.360 -0.030 0.020)m/s^2
+01-17 23:22:21.900 13603 14082 V IMU     : dt=0.016s accel=(0.380 0.000 0.000)m/s^2
+01-17 23:22:21.916 13603 14082 V IMU     : dt=0.016s accel=(0.380 -0.020 0.000)m/s^2
+01-17 23:22:21.932 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:21.948 13603 14082 V IMU     : dt=0.016s accel=(0.370 0.010 0.010)m/s^2
+01-17 23:22:21.964 13603 14082 V IMU     : dt=0.016s accel=(0.350 0.000 0.000)m/s^2
+01-17 23:22:21.979 13603 14082 V IMU     : dt=0.015s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:21.995 13603 14082 V IMU     : dt=0.016s accel=(0.390 -0.020 0.000)m/s^2
+01-17 23:22:22.013 13603 14082 V IMU     : dt=0.018s accel=(0.360 -0.010 -0.020)m/s^2
+01-17 23:22:22.029 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 -0.010)m/s^2
+01-17 23:22:22.032 13603 14083 I AR      : ObjectTracker: This device doesn't support model targets extended tracking, extended tracking will be turned off
+01-17 23:22:22.038 13603 14083 D Uvc     : [NativeVuforiaWebcam.h:322] NativeVuforiaWebcam::start()...
+01-17 23:22:22.038 13603 14083 D VuforiaWebcam: nativeCallbackStart()...
+01-17 23:22:22.039 13603 14083 V CameraCallback: construct(pointer=0x8f789a58)
+01-17 23:22:22.039 13603 14083 D VuforiaWebcam: start(CameraMode(format=YUYV:1 w=800 h=448 fps=30))...
+01-17 23:22:22.040 13603 14083 D UsbResiliantWebcam: createCaptureSession()...
+01-17 23:22:22.040 13603 14083 V DelCaptureSession: construct(0x0f36e51d)
+01-17 23:22:22.045 13603 14083 D UsbResiliantWebcam|DelCaptureSession: onCameraChange(null->CameraImpl(UvcDeviceHandle(pointer=0xb1a2dba0|UvcDevice(/dev/bus/usb/001/005))))...
+01-17 23:22:22.045 13603 14083 D UsbResiliantWebcam|DelCaptureSession: ...onCameraChange(null->CameraImpl(UvcDeviceHandle(pointer=0xb1a2dba0|UvcDevice(/dev/bus/usb/001/005))))
+01-17 23:22:22.047 13603 14083 D CachingExposureControl: onCameraChanged(CameraImpl(UvcDeviceHandle(pointer=0xb1a2dba0|UvcDevice(/dev/bus/usb/001/005)))->CameraImpl(UvcDeviceHandle(pointer=0xb1a2dba0|UvcDevice(/dev/bus/usb/001/005))))...
+01-17 23:22:22.047 13603 14083 D CachingExposureControl: ...onCameraChanged(CameraImpl(UvcDeviceHandle(pointer=0xb1a2dba0|UvcDevice(/dev/bus/usb/001/005)))->CameraImpl(UvcDeviceHandle(pointer=0xb1a2dba0|UvcDevice(/dev/bus/usb/001/005))))
+01-17 23:22:22.047 13603 14083 D UsbResiliantWebcam: ...createCaptureSession()
+01-17 23:22:22.047 13603 14083 D ContinuationSynchronizer: awaiting(camera start)...
+01-17 23:22:22.049 13603 14133 D VuforiaWebcam: capture session DelegatingCaptureSession(1) reports configured
+01-17 23:22:22.050 13603 14133 D UsbResiliantWebcam|DelCaptureSession: startCapture()...
+01-17 23:22:22.051 13603 14082 V IMU     : dt=0.022s accel=(0.370 0.000 0.010)m/s^2
+01-17 23:22:22.050 13603 14133 V DelCaptureSequence: construct(0x0d8d8163)
+01-17 23:22:22.053 13603 14133 D UsbResiliantWebcam|DelCaptureSequence: onCameraChange(null->CameraImpl(UvcDeviceHandle(pointer=0xb1a2dba0|UvcDevice(/dev/bus/usb/001/005))))...
+01-17 23:22:22.053 13603 14133 D UsbResiliantWebcam|DelCaptureSequence: pauseStreaming(Stopped)...
+01-17 23:22:22.053 13603 14133 D UsbResiliantWebcam|DelCaptureSequence: ...pauseStreaming(Stopped)
+01-17 23:22:22.054 13603 14133 D UsbResiliantWebcam|DelCaptureSequence: resumeStreaming(Stopped)...
+01-17 23:22:22.054 13603 14133 D UsbResiliantWebcam|DelCaptureSequence: ...resumeStreaming(Stopped)
+01-17 23:22:22.054 13603 14133 D UsbResiliantWebcam|DelCaptureSequence: ...onCameraChange(null->CameraImpl(UvcDeviceHandle(pointer=0xb1a2dba0|UvcDevice(/dev/bus/usb/001/005))))
+01-17 23:22:22.054 13603 14133 D UsbResiliantWebcam|DelCaptureSequence: startStreaming(Stopped)...
+01-17 23:22:22.061 13603 14133 D UsbResiliantWebcam|DelCaptureSequence: doStreaming()...
+01-17 23:22:22.061 13603 14133 V UvcApiCaptureSession: construct(0x083e7160)
+01-17 23:22:22.062 13603 14132 D UsbResiliantWebcam|DelCaptureSession: camera session is configured: Webcam(781AEFD0)
+01-17 23:22:22.062 13603 14133 V UvcApiCameraCaptureSequence: construct(0x0961b619)
+01-17 23:22:22.067 13603 14082 V IMU     : dt=0.016s accel=(0.370 -0.020 0.000)m/s^2
+01-17 23:22:22.068 13603 14133 D UvcDeviceHandle: getStreamControl(800x448 30)...
+01-17 23:22:22.068 13603 14133 V UvcStreamCtrl: construct(0x046c56de)
+01-17 23:22:22.069 13603 14133 D Uvc     : [jni_devicehandle.cpp:115] Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcDeviceHandle_nativeGetStreamControlFormatSize()...
+01-17 23:22:22.069 13603 14133 V Uvc     : API: Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcDeviceHandle_nativeGetStreamControlFormatSize: enter...
+01-17 23:22:22.069 13603 14133 D Uvc     : [stream.cpp:375] uvc_get_stream_ctrl_format_size()...
+01-17 23:22:22.069 13603 14133 D Uvc     : [libuvc/libuvc_internal.h:773] uvc_device_handle::claimInterface(idx=3)...
+01-17 23:22:22.069 13603 14133 D UvcDevice: claimInterface(3)
+01-17 23:22:22.069 13603 14133 D UvcDevice: claimInterface(3) succeeded
+01-17 23:22:22.069 13603 14133 D Uvc     : [libuvc/libuvc_internal.h:786] claimInterface(3) succeeded
+01-17 23:22:22.069 13603 14133 D Uvc     : [libuvc/libuvc_internal.h:773] ...uvc_device_handle::claimInterface() rc=0
+01-17 23:22:22.069 13603 14133 D UvcStream: [stream.cpp:414] 800x448 30fps
+01-17 23:22:22.069 13603 14133 D Uvc     : [stream.cpp:164] uvc_query_stream_ctrl()...
+01-17 23:22:22.076 13603 14133 D Uvc     : [stream.cpp:164] ...uvc_query_stream_ctrl() rc=0
+01-17 23:22:22.076 13603 14133 D Uvc     : [libuvc/libuvc_internal.h:796] uvc_device_handle::releaseInterface()...
+01-17 23:22:22.077 13603 14133 D UvcDevice: releaseInterface(1)
+01-17 23:22:22.077 13603 14133 E UvcDevice: releaseInterface(1) failed
+01-17 23:22:22.077 13603 14133 D Uvc     : [libuvc/libuvc_internal.h:796] ...uvc_device_handle::releaseInterface() rc=-1
+01-17 23:22:22.077 13603 14133 D Uvc     : [stream.cpp:484] uvc_probe_stream_ctrl()...
+01-17 23:22:22.077 13603 14133 D Uvc     : [libuvc/libuvc_internal.h:773] uvc_device_handle::claimInterface(idx=3)...
+01-17 23:22:22.077 13603 14133 D UvcDevice: claimInterface(3)
+01-17 23:22:22.078 13603 14133 D UvcDevice: claimInterface(3) succeeded
+01-17 23:22:22.078 13603 14133 D Uvc     : [libuvc/libuvc_internal.h:786] claimInterface(3) succeeded
+01-17 23:22:22.078 13603 14133 D Uvc     : [libuvc/libuvc_internal.h:773] ...uvc_device_handle::claimInterface() rc=0
+01-17 23:22:22.078 13603 14133 D Uvc     : [stream.cpp:164] uvc_query_stream_ctrl()...
+01-17 23:22:22.082 13603 14133 D Uvc     : [stream.cpp:164] ...uvc_query_stream_ctrl() rc=0
+01-17 23:22:22.082 13603 14133 D Uvc     : [stream.cpp:164] uvc_query_stream_ctrl()...
+01-17 23:22:22.083 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.030 0.020)m/s^2
+01-17 23:22:22.086 13603 14133 D Uvc     : [stream.cpp:164] ...uvc_query_stream_ctrl() rc=0
+01-17 23:22:22.086 13603 14133 D Uvc     : [stream.cpp:484] ...uvc_probe_stream_ctrl() rc=0
+01-17 23:22:22.086 13603 14133 D Uvc     : [stream.cpp:375] ...uvc_get_stream_ctrl_format_size() rc=0
+01-17 23:22:22.086 13603 14133 V Uvc     : API: Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcDeviceHandle_nativeGetStreamControlFormatSize: ...exit
+01-17 23:22:22.086 13603 14133 D Uvc     : [jni_devicehandle.cpp:115] ...Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcDeviceHandle_nativeGetStreamControlFormatSize()
+01-17 23:22:22.086 13603 14133 D UvcDeviceHandle: ...getStreamControl(800x448 30)
+01-17 23:22:22.086 13603 14133 D Uvc     : [jni_streamcontrol.cpp:101] Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcStreamCtrl_nativeOpen()...
+01-17 23:22:22.086 13603 14133 V Uvc     : API: Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcStreamCtrl_nativeOpen: enter...
+01-17 23:22:22.086 13603 14133 D Uvc     : [devicehandle.cpp:46] uvc_device_handle::openStreamControl()...
+01-17 23:22:22.086 13603 14133 D Uvc     : [streamhandle.cpp:58] uvc_stream_handle::claimInterface()...
+01-17 23:22:22.086 13603 14133 D Uvc     : [libuvc/libuvc_internal.h:773] uvc_device_handle::claimInterface(idx=3)...
+01-17 23:22:22.086 13603 14133 D UvcDevice: claimInterface(3)
+01-17 23:22:22.086 13603 14133 D UvcDevice: claimInterface(3) succeeded
+01-17 23:22:22.086 13603 14133 D Uvc     : [libuvc/libuvc_internal.h:786] claimInterface(3) succeeded
+01-17 23:22:22.086 13603 14133 D Uvc     : [libuvc/libuvc_internal.h:773] ...uvc_device_handle::claimInterface() rc=0
+01-17 23:22:22.087 13603 14133 D Uvc     : [streamhandle.cpp:58] ...uvc_stream_handle::claimInterface() rc=0
+01-17 23:22:22.087 13603 14133 D Uvc     : [stream.cpp:164] uvc_query_stream_ctrl()...
+01-17 23:22:22.091 13603 14133 D Uvc     : [stream.cpp:164] ...uvc_query_stream_ctrl() rc=0
+01-17 23:22:22.091 13603 14133 D Uvc     : [devicehandle.cpp:46] ...uvc_device_handle::openStreamControl() rc=0
+01-17 23:22:22.091 13603 14133 V Uvc     : API: Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcStreamCtrl_nativeOpen: ...exit
+01-17 23:22:22.091 13603 14133 D Uvc     : [jni_streamcontrol.cpp:101] ...Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcStreamCtrl_nativeOpen()
+01-17 23:22:22.091 13603 14133 V UvcStreamHandle: construct(pointer=0xa99ccfe0)
+01-17 23:22:22.091 13603 14133 D Uvc     : [jni_streamhandle.cpp:184] Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcStreamHandle_nativeStopStreaming()...
+01-17 23:22:22.091 13603 14133 V Uvc     : API: Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcStreamHandle_nativeStopStreaming: enter...
+01-17 23:22:22.091 13603 14133 D Uvc     : [stream.cpp:1467] uvc_stream_stop()...
+01-17 23:22:22.091 13603 14133 D Uvc     : [stream.cpp:1467] ...uvc_stream_stop() rc=0
+01-17 23:22:22.091 13603 14133 V Uvc     : API: Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcStreamHandle_nativeStopStreaming: ...exit
+01-17 23:22:22.091 13603 14133 D Uvc     : [jni_streamhandle.cpp:184] ...Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcStreamHandle_nativeStopStreaming()
+01-17 23:22:22.092 13603 14133 V UvcFrameCallback: construct(0x024cd0bf)
+01-17 23:22:22.093 13603 14133 V UvcFrameCallbackData: construct(pointer=0x84094f10)
+01-17 23:22:22.093 13603 14133 V Uvc     : API: Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcStreamHandle_nativeStartStreaming: enter...
+01-17 23:22:22.093 13603 14133 D Uvc     : [stream.cpp:931] uvc_stream_start_bandwidth()...
+01-17 23:22:22.093 13603 14133 D Uvc     : [stream.cpp:1126] uvc_stream_handle::startIsochronousStreaming()...
+01-17 23:22:22.093 13603 14133 D Uvc     : [libuvc/libuvc_internal.h:828] uvc_device_handle::setInterfaceAltSetting(setInterfaceAltSetting(intf=3 alt=11))...
+01-17 23:22:22.093 13603 14133 D UvcDevice: setInterfaceAltSetting(3,11)
+01-17 23:22:22.099 13603 14082 V IMU     : dt=0.016s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:22.102 13603 14133 D UvcDevice: setInterfaceAltSetting(3,11) succeeded
+01-17 23:22:22.103 13603 14133 D Uvc     : [libuvc/libuvc_internal.h:828] ...uvc_device_handle::setInterfaceAltSetting() rc=0
+01-17 23:22:22.103 13603 14133 D Uvc     : [stream.cpp:1126] ...uvc_stream_handle::startIsochronousStreaming() rc=0
+01-17 23:22:22.104 13603 14133 D Uvc     : [stream.cpp:1154] uvc_stream_handle::startUserCallbackThread()...
+01-17 23:22:22.118 13603 14134 D UvcStream: [stream.cpp:1218] User Callback thread started
+01-17 23:22:22.118 13603 14133 D Uvc     : [stream.cpp:1154] ...uvc_stream_handle::startUserCallbackThread() rc=0
+01-17 23:22:22.118 13603 14133 D Uvc     : [stream.cpp:1174] uvc_stream_handle::submitTransfers()...
+01-17 23:22:22.119 13603 14082 V IMU     : dt=0.017s accel=(0.360 -0.010 0.040)m/s^2
+01-17 23:22:22.130 13603 13775 D UvcStream: [stream.cpp:690] this is the UVC processTransfer() stream processing thread
+01-17 23:22:22.131 13603 14133 D Uvc     : [stream.cpp:1174] ...uvc_stream_handle::submitTransfers() rc=0
+01-17 23:22:22.131 13603 14133 D Uvc     : [stream.cpp:931] ...uvc_stream_start_bandwidth() rc=0
+01-17 23:22:22.131 13603 14133 D UvcStreamHandle: [jni_streamhandle.cpp:150] successfully started streaming
+01-17 23:22:22.131 13603 14133 V Uvc     : API: Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcStreamHandle_nativeStartStreaming: ...exit
+01-17 23:22:22.131 13603 14133 V UvcStreamCtrl: destroy(pointer=0x8657eb40)
+01-17 23:22:22.132 13603 14133 D UsbResiliantWebcam|DelCaptureSequence: ...doStreaming()
+01-17 23:22:22.132 13603 14133 D UsbResiliantWebcam|DelCaptureSequence: ...startStreaming(Stopped)
+01-17 23:22:22.132 13603 14133 D UsbResiliantWebcam|DelCaptureSession: ...startCapture()
+01-17 23:22:22.132 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:22.132 13603 14133 D ContinuationSynchronizer: finish("onConfigured": DelegatingCaptureSession(1))...
+01-17 23:22:22.136 13603 14083 D ContinuationSynchronizer: ...awaiting(camera start)
+01-17 23:22:22.136 13603 14083 D VuforiaWebcam: ...start(CameraMode(format=YUYV:1 w=800 h=448 fps=30))
+01-17 23:22:22.136 13603 14083 D VuforiaWebcam: ...nativeCallbackStart()
+01-17 23:22:22.136 13603 14083 D Uvc     : [NativeVuforiaWebcam.h:322] ...NativeVuforiaWebcam::start()
+01-17 23:22:22.141 13603 14083 D Uvc     : [NativeVuforiaWebcam.h:568] NativeVuforiaWebcam::setFocusMode()...
+01-17 23:22:22.142 13603 14083 D UvcApiFocusControl: setMode(ContinuousAuto)...
+01-17 23:22:22.142 13603 14133 D ContinuationSynchronizer: ...finish("onConfigured": DelegatingCaptureSession(1))
+01-17 23:22:22.149 13603 14082 V IMU     : dt=0.017s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:22.171 13603 14082 V IMU     : dt=0.018s accel=(0.350 -0.010 0.010)m/s^2
+01-17 23:22:22.182 13603 14082 V IMU     : dt=0.015s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:22.197 13603 14082 V IMU     : dt=0.015s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:22.213 13603 14082 V IMU     : dt=0.016s accel=(0.350 0.000 0.000)m/s^2
+01-17 23:22:22.230 13603 14082 V IMU     : dt=0.017s accel=(0.370 -0.010 -0.010)m/s^2
+01-17 23:22:22.245 13603 14082 V IMU     : dt=0.015s accel=(0.380 -0.010 -0.010)m/s^2
+01-17 23:22:22.257 13603 14083 D UvcApiFocusControl: ...setMode(ContinuousAuto): true
+01-17 23:22:22.257 13603 14083 D Uvc     : [NativeVuforiaWebcam.h:568] ...NativeVuforiaWebcam::setFocusMode()
+01-17 23:22:22.261 13603 14082 V IMU     : dt=0.016s accel=(0.370 0.000 0.010)m/s^2
+01-17 23:22:22.266 13603 14083 D Uvc     : [NativeVuforiaWebcam.h:568] NativeVuforiaWebcam::setFocusMode()...
+01-17 23:22:22.266 13603 14083 D UvcApiFocusControl: setMode(ContinuousAuto)...
+01-17 23:22:22.268 13603 14083 D UvcApiFocusControl: ...setMode(ContinuousAuto): true
+01-17 23:22:22.268 13603 14083 D Uvc     : [NativeVuforiaWebcam.h:568] ...NativeVuforiaWebcam::setFocusMode()
+01-17 23:22:22.270 13603 14083 E Vuforia : enableConvertFrameToBitmap(): internal error: setFrameFormat(8) failed
+01-17 23:22:22.276 13603 14082 V IMU     : dt=0.015s accel=(0.350 0.000 0.000)m/s^2
+01-17 23:22:22.296 13603 14082 V IMU     : dt=0.019s accel=(0.340 0.000 -0.010)m/s^2
+01-17 23:22:22.305 13603 13711 V Robocol : sending CMD_STREAM_CHANGE(65337), attempt: 0
+01-17 23:22:22.312 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:22.327 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 0.010)m/s^2
+01-17 23:22:22.343 13603 14082 V IMU     : dt=0.016s accel=(0.350 0.000 0.010)m/s^2
+01-17 23:22:22.359 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 -0.020)m/s^2
+01-17 23:22:22.374 13603 14082 V IMU     : dt=0.015s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:22.390 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:22.400 13603 14134 D CameraCalibrationManager: CameraCalibration(VendorProductCalibrationIdentity(vid=0x046d,pid=0x082c) 800x448)=null
+01-17 23:22:22.401 13603 14134 D CameraCalibrationManager: getCameraCalibration(): CameraCalibration(VendorProductCalibrationIdentity(vid=0x046d,pid=0x082c) 800x448 f=0.000,0.000)
+01-17 23:22:22.408 13603 14082 V IMU     : dt=0.018s accel=(0.330 -0.020 0.010)m/s^2
+01-17 23:22:22.425 13603 14082 V IMU     : dt=0.017s accel=(0.380 -0.020 0.000)m/s^2
+01-17 23:22:22.443 13603 14082 V IMU     : dt=0.017s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:22.465 13603 13711 V Robocol : sending CMD_STREAM_CHANGE(65341), attempt: 0
+01-17 23:22:22.468 13603 14082 V IMU     : dt=0.012s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:22.500 13603 14082 V IMU     : dt=0.042s accel=(0.360 0.000 -0.010)m/s^2
+01-17 23:22:22.516 13603 14082 V IMU     : dt=0.018s accel=(0.350 0.000 0.000)m/s^2
+01-17 23:22:22.537 13603 14082 V IMU     : dt=0.022s accel=(0.380 -0.020 0.000)m/s^2
+01-17 23:22:22.552 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.020 0.000)m/s^2
+01-17 23:22:22.570 13603 14082 V IMU     : dt=0.018s accel=(0.380 -0.010 -0.020)m/s^2
+01-17 23:22:22.588 13603 14082 V IMU     : dt=0.018s accel=(0.370 -0.010 0.000)m/s^2
+01-17 23:22:22.604 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:22.625 13603 14082 V IMU     : dt=0.018s accel=(0.370 -0.010 0.000)m/s^2
+01-17 23:22:22.638 13603 14082 V IMU     : dt=0.016s accel=(0.370 -0.010 0.010)m/s^2
+01-17 23:22:22.654 13603 14082 V IMU     : dt=0.016s accel=(0.370 -0.010 -0.040)m/s^2
+01-17 23:22:22.673 13603 14082 V IMU     : dt=0.017s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:22.687 13603 14082 V IMU     : dt=0.016s accel=(0.340 0.000 0.000)m/s^2
+01-17 23:22:22.707 13603 14082 V IMU     : dt=0.019s accel=(0.380 0.000 0.040)m/s^2
+01-17 23:22:22.722 13603 14082 V IMU     : dt=0.016s accel=(0.370 -0.030 0.000)m/s^2
+01-17 23:22:22.742 13603 14082 V IMU     : dt=0.019s accel=(0.370 -0.020 0.020)m/s^2
+01-17 23:22:22.759 13603 14082 V IMU     : dt=0.015s accel=(0.380 -0.010 0.000)m/s^2
+01-17 23:22:22.771 13603 14082 V IMU     : dt=0.015s accel=(0.370 0.010 0.020)m/s^2
+01-17 23:22:22.790 13603 14082 V IMU     : dt=0.019s accel=(0.390 0.010 0.000)m/s^2
+01-17 23:22:22.807 13603 14082 V IMU     : dt=0.017s accel=(0.360 0.000 0.010)m/s^2
+01-17 23:22:22.826 13603 14082 V IMU     : dt=0.018s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:22.840 13603 14082 V IMU     : dt=0.015s accel=(0.360 0.000 0.010)m/s^2
+01-17 23:22:22.856 13603 14082 V IMU     : dt=0.015s accel=(0.390 0.000 0.000)m/s^2
+01-17 23:22:22.878 13603 14082 V IMU     : dt=0.023s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:22.898 13603 14082 V IMU     : dt=0.019s accel=(0.350 0.000 -0.010)m/s^2
+01-17 23:22:22.914 13603 14082 V IMU     : dt=0.017s accel=(0.380 0.000 -0.020)m/s^2
+01-17 23:22:22.929 13603 14082 V IMU     : dt=0.015s accel=(0.380 -0.010 0.000)m/s^2
+01-17 23:22:22.955 13603 14082 V IMU     : dt=0.024s accel=(0.360 -0.020 0.000)m/s^2
+01-17 23:22:22.974 13603 14082 V IMU     : dt=0.020s accel=(0.360 0.010 0.000)m/s^2
+01-17 23:22:22.993 13603 14082 V IMU     : dt=0.020s accel=(0.370 -0.010 0.020)m/s^2
+01-17 23:22:23.009 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:23.031 13603 14082 V IMU     : dt=0.020s accel=(0.360 0.000 0.010)m/s^2
+01-17 23:22:23.048 13603 14082 V IMU     : dt=0.018s accel=(0.370 -0.020 0.000)m/s^2
+01-17 23:22:23.071 13603 14082 V IMU     : dt=0.023s accel=(0.380 0.000 0.020)m/s^2
+01-17 23:22:23.087 13603 14082 V IMU     : dt=0.015s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:23.106 13603 14082 V IMU     : dt=0.021s accel=(0.360 0.000 0.010)m/s^2
+01-17 23:22:23.123 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.010 0.010)m/s^2
+01-17 23:22:23.146 13603 14082 V IMU     : dt=0.018s accel=(0.380 0.000 -0.010)m/s^2
+01-17 23:22:23.172 13603 14082 V IMU     : dt=0.031s accel=(0.360 -0.020 0.020)m/s^2
+01-17 23:22:23.188 13603 14082 V IMU     : dt=0.015s accel=(0.360 -0.010 0.010)m/s^2
+01-17 23:22:23.209 13603 14082 V IMU     : dt=0.021s accel=(0.360 0.000 0.020)m/s^2
+01-17 23:22:23.226 13603 14082 V IMU     : dt=0.019s accel=(0.380 0.000 0.000)m/s^2
+01-17 23:22:23.240 13603 14082 V IMU     : dt=0.014s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:23.258 13603 14082 V IMU     : dt=0.017s accel=(0.370 0.000 0.010)m/s^2
+01-17 23:22:23.275 13603 14082 V IMU     : dt=0.017s accel=(0.390 0.000 0.000)m/s^2
+01-17 23:22:23.290 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:23.307 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.010 0.000)m/s^2
+01-17 23:22:23.324 13603 14082 V IMU     : dt=0.017s accel=(0.360 0.020 0.000)m/s^2
+01-17 23:22:23.339 13603 14082 V IMU     : dt=0.015s accel=(0.380 0.000 0.000)m/s^2
+01-17 23:22:23.355 13603 14082 V IMU     : dt=0.015s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:23.378 13603 14082 V IMU     : dt=0.025s accel=(0.350 0.000 0.000)m/s^2
+01-17 23:22:23.397 13603 14082 V IMU     : dt=0.018s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:23.426 13603 14082 V IMU     : dt=0.025s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:23.443 13603 14026 I zygote  : IncrementDisableThreadFlip blocked for 5.281ms
+01-17 23:22:23.444 13603 14082 I zygote  : IncrementDisableThreadFlip blocked for 7.677ms
+01-17 23:22:23.444 13603 14031 I zygote  : IncrementDisableThreadFlip blocked for 8.024ms
+01-17 23:22:23.462 13603 14082 V IMU     : dt=0.040s accel=(0.370 0.000 -0.010)m/s^2
+01-17 23:22:23.480 13603 14082 V IMU     : dt=0.018s accel=(0.370 -0.010 0.000)m/s^2
+01-17 23:22:23.514 13603 14082 V IMU     : dt=0.034s accel=(0.370 -0.030 0.000)m/s^2
+01-17 23:22:23.532 13603 14082 V IMU     : dt=0.018s accel=(0.350 -0.010 0.000)m/s^2
+01-17 23:22:23.563 13603 14082 V IMU     : dt=0.031s accel=(0.350 0.000 0.000)m/s^2
+01-17 23:22:23.635 13603 14082 V IMU     : dt=0.056s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:23.665 13603 14082 V IMU     : dt=0.045s accel=(0.370 -0.010 0.000)m/s^2
+01-17 23:22:23.732 13603 14082 V IMU     : dt=0.065s accel=(0.370 0.000 0.010)m/s^2
+01-17 23:22:23.752 13603 14082 V IMU     : dt=0.022s accel=(0.370 0.000 0.010)m/s^2
+01-17 23:22:23.776 13603 14082 V IMU     : dt=0.025s accel=(0.350 -0.010 -0.010)m/s^2
+01-17 23:22:23.810 13603 14082 V IMU     : dt=0.033s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:23.830 13603 14082 V IMU     : dt=0.021s accel=(0.370 0.000 0.010)m/s^2
+01-17 23:22:23.856 13603 14082 V IMU     : dt=0.017s accel=(0.370 -0.010 -0.010)m/s^2
+01-17 23:22:23.873 13603 14082 V IMU     : dt=0.026s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:23.898 13603 14082 V IMU     : dt=0.022s accel=(0.360 0.010 -0.020)m/s^2
+01-17 23:22:23.910 13603 14082 V IMU     : dt=0.015s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:23.926 13603 14082 V IMU     : dt=0.016s accel=(0.380 0.000 0.020)m/s^2
+01-17 23:22:23.954 13603 14082 V IMU     : dt=0.024s accel=(0.360 0.000 0.020)m/s^2
+01-17 23:22:23.973 13603 14082 V IMU     : dt=0.018s accel=(0.370 0.000 -0.020)m/s^2
+01-17 23:22:23.991 13603 14082 V IMU     : dt=0.024s accel=(0.360 0.000 0.010)m/s^2
+01-17 23:22:24.009 13603 14082 V IMU     : dt=0.018s accel=(0.370 -0.030 0.000)m/s^2
+01-17 23:22:24.033 13603 14082 V IMU     : dt=0.019s accel=(0.360 0.000 0.010)m/s^2
+01-17 23:22:24.047 13603 14082 V IMU     : dt=0.019s accel=(0.360 0.000 0.010)m/s^2
+01-17 23:22:24.086 13603 14082 V IMU     : dt=0.020s accel=(0.380 -0.020 0.010)m/s^2
+01-17 23:22:24.102 13603 13775 D Uvc     : [device.cpp:1756] uvc_process_streaming_status()...
+01-17 23:22:24.103 13603 13775 D Uvc     : [device.cpp:1788] strm status org=1 error event=0x07 value=0x81 len=4.
+01-17 23:22:24.103 13603 13775 D Uvc     : [device.cpp:1756] ...uvc_process_streaming_status()
+01-17 23:22:24.105 13603 14082 V IMU     : dt=0.038s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:24.131 13603 14082 V IMU     : dt=0.026s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:24.150 13603 14082 V IMU     : dt=0.019s accel=(0.380 0.000 0.000)m/s^2
+01-17 23:22:24.188 13603 14082 V IMU     : dt=0.020s accel=(0.360 -0.020 0.000)m/s^2
+01-17 23:22:24.196 13603 13615 I zygote  : NativeAlloc concurrent copying GC freed 336773(11MB) AllocSpace objects, 15(9MB) LOS objects, 49% free, 12MB/25MB, paused 4.914ms total 786.150ms
+01-17 23:22:24.220 13603 14082 V IMU     : dt=0.043s accel=(0.370 -0.010 0.030)m/s^2
+01-17 23:22:24.237 13603 14082 V IMU     : dt=0.022s accel=(0.370 -0.020 0.000)m/s^2
+01-17 23:22:24.251 13603 14082 V IMU     : dt=0.015s accel=(0.360 0.000 0.010)m/s^2
+01-17 23:22:24.268 13603 14082 V IMU     : dt=0.017s accel=(0.370 -0.010 -0.010)m/s^2
+01-17 23:22:24.282 13603 14082 V IMU     : dt=0.015s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:24.294 13603 13775 D Uvc     : [device.cpp:1756] uvc_process_streaming_status()...
+01-17 23:22:24.294 13603 13775 D Uvc     : [device.cpp:1788] strm status org=1 error event=0x07 value=0x82 len=4.
+01-17 23:22:24.294 13603 13775 D Uvc     : [device.cpp:1756] ...uvc_process_streaming_status()
+01-17 23:22:24.302 13603 14082 V IMU     : dt=0.019s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:24.323 13603 14082 V IMU     : dt=0.019s accel=(0.370 -0.010 0.000)m/s^2
+01-17 23:22:24.337 13603 14082 V IMU     : dt=0.016s accel=(0.350 -0.010 0.000)m/s^2
+01-17 23:22:24.352 13603 14082 V IMU     : dt=0.015s accel=(0.370 0.000 -0.010)m/s^2
+01-17 23:22:24.369 13603 14082 V IMU     : dt=0.017s accel=(0.340 -0.010 0.000)m/s^2
+01-17 23:22:24.388 13603 14082 V IMU     : dt=0.018s accel=(0.380 0.010 0.020)m/s^2
+01-17 23:22:24.402 13603 14082 V IMU     : dt=0.015s accel=(0.380 0.000 0.020)m/s^2
+01-17 23:22:24.418 13603 14082 V IMU     : dt=0.016s accel=(0.380 -0.020 0.000)m/s^2
+01-17 23:22:24.432 13603 14082 V IMU     : dt=0.013s accel=(0.360 -0.020 -0.010)m/s^2
+01-17 23:22:24.447 13603 14082 V IMU     : dt=0.016s accel=(0.380 -0.010 0.010)m/s^2
+01-17 23:22:24.466 13603 14082 V IMU     : dt=0.019s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:24.486 13603 14082 V IMU     : dt=0.020s accel=(0.360 -0.020 0.000)m/s^2
+01-17 23:22:24.502 13603 14082 V IMU     : dt=0.016s accel=(0.340 -0.030 0.000)m/s^2
+01-17 23:22:24.503 13603 13775 D Uvc     : [device.cpp:1756] uvc_process_streaming_status()...
+01-17 23:22:24.503 13603 13775 D Uvc     : [device.cpp:1788] strm status org=1 error event=0x07 value=0x83 len=4.
+01-17 23:22:24.503 13603 13775 D Uvc     : [device.cpp:1756] ...uvc_process_streaming_status()
+01-17 23:22:24.522 13603 14082 V IMU     : dt=0.020s accel=(0.350 0.000 0.000)m/s^2
+01-17 23:22:24.538 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.020 0.000)m/s^2
+01-17 23:22:24.557 13603 14082 V IMU     : dt=0.019s accel=(0.360 -0.030 0.000)m/s^2
+01-17 23:22:24.573 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:24.592 13603 14082 V IMU     : dt=0.019s accel=(0.460 0.010 -0.070)m/s^2
+01-17 23:22:24.609 13603 14082 V IMU     : dt=0.017s accel=(0.480 0.000 -0.240)m/s^2
+01-17 23:22:24.626 13603 14082 V IMU     : dt=0.017s accel=(-0.130 0.000 0.040)m/s^2
+01-17 23:22:24.642 13603 14082 V IMU     : dt=0.016s accel=(0.320 0.080 0.930)m/s^2
+01-17 23:22:24.660 13603 14082 V IMU     : dt=0.018s accel=(-0.370 -0.430 -0.720)m/s^2
+01-17 23:22:24.676 13603 14082 V IMU     : dt=0.017s accel=(1.120 0.150 -0.160)m/s^2
+01-17 23:22:24.693 13603 14082 V IMU     : dt=0.017s accel=(-0.400 0.170 0.120)m/s^2
+01-17 23:22:24.709 13603 14082 V IMU     : dt=0.016s accel=(0.250 0.090 0.310)m/s^2
+01-17 23:22:24.728 13603 14082 V IMU     : dt=0.019s accel=(0.190 -0.200 0.000)m/s^2
+01-17 23:22:24.744 13603 14082 V IMU     : dt=0.016s accel=(0.430 0.110 0.050)m/s^2
+01-17 23:22:24.762 13603 14082 V IMU     : dt=0.018s accel=(0.330 0.110 -0.020)m/s^2
+01-17 23:22:24.786 13603 14082 V IMU     : dt=0.023s accel=(0.330 -0.120 -0.060)m/s^2
+01-17 23:22:24.801 13603 14082 V IMU     : dt=0.016s accel=(0.280 -0.070 0.070)m/s^2
+01-17 23:22:24.816 13603 14082 V IMU     : dt=0.015s accel=(0.270 0.000 0.080)m/s^2
+01-17 23:22:24.835 13603 14082 V IMU     : dt=0.019s accel=(0.410 0.020 -0.080)m/s^2
+01-17 23:22:24.850 13603 14082 V IMU     : dt=0.015s accel=(0.330 0.040 0.080)m/s^2
+01-17 23:22:24.867 13603 14082 V IMU     : dt=0.017s accel=(0.370 -0.080 0.010)m/s^2
+01-17 23:22:24.884 13603 14082 V IMU     : dt=0.017s accel=(0.410 -0.030 -0.020)m/s^2
+01-17 23:22:24.900 13603 14082 V IMU     : dt=0.016s accel=(0.350 0.010 -0.030)m/s^2
+01-17 23:22:24.919 13603 14082 V IMU     : dt=0.018s accel=(0.410 0.020 -0.020)m/s^2
+01-17 23:22:24.934 13603 14082 V IMU     : dt=0.016s accel=(0.390 -0.050 -0.070)m/s^2
+01-17 23:22:24.950 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.010 0.030)m/s^2
+01-17 23:22:24.968 13603 14082 V IMU     : dt=0.018s accel=(0.330 0.010 0.030)m/s^2
+01-17 23:22:24.988 13603 14082 V IMU     : dt=0.018s accel=(0.380 -0.020 -0.020)m/s^2
+01-17 23:22:25.013 13603 14082 V IMU     : dt=0.026s accel=(0.360 -0.010 -0.010)m/s^2
+01-17 23:22:25.027 13603 14082 V IMU     : dt=0.015s accel=(0.380 -0.030 -0.020)m/s^2
+01-17 23:22:25.045 13603 14082 V IMU     : dt=0.018s accel=(0.400 -0.120 -0.030)m/s^2
+01-17 23:22:25.058 13603 14082 V IMU     : dt=0.013s accel=(0.290 0.100 0.070)m/s^2
+01-17 23:22:25.074 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.080 -0.020)m/s^2
+01-17 23:22:25.090 13603 14082 V IMU     : dt=0.016s accel=(0.400 0.030 -0.030)m/s^2
+01-17 23:22:25.104 13603 14082 V IMU     : dt=0.014s accel=(0.330 -0.080 0.000)m/s^2
+01-17 23:22:25.124 13603 14082 V IMU     : dt=0.020s accel=(0.330 -0.090 0.040)m/s^2
+01-17 23:22:25.140 13603 14082 V IMU     : dt=0.016s accel=(0.390 0.010 -0.030)m/s^2
+01-17 23:22:25.156 13603 14082 V IMU     : dt=0.016s accel=(0.390 0.010 -0.060)m/s^2
+01-17 23:22:25.172 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.020 0.020)m/s^2
+01-17 23:22:25.191 13603 14082 V IMU     : dt=0.019s accel=(0.370 0.000 -0.010)m/s^2
+01-17 23:22:25.207 13603 14082 V IMU     : dt=0.016s accel=(0.380 -0.030 -0.010)m/s^2
+01-17 23:22:25.224 13603 14082 V IMU     : dt=0.017s accel=(0.360 -0.030 0.030)m/s^2
+01-17 23:22:25.242 13603 14082 V IMU     : dt=0.018s accel=(0.380 0.000 -0.010)m/s^2
+01-17 23:22:25.259 13603 14082 V IMU     : dt=0.017s accel=(0.350 0.020 -0.020)m/s^2
+01-17 23:22:25.276 13603 14082 V IMU     : dt=0.017s accel=(0.390 0.000 0.000)m/s^2
+01-17 23:22:25.290 13603 14082 V IMU     : dt=0.014s accel=(0.360 -0.030 -0.030)m/s^2
+01-17 23:22:25.308 13603 14082 V IMU     : dt=0.018s accel=(0.370 -0.010 -0.010)m/s^2
+01-17 23:22:25.325 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.010 0.010)m/s^2
+01-17 23:22:25.340 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:25.356 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 -0.020)m/s^2
+01-17 23:22:25.373 13603 14082 V IMU     : dt=0.017s accel=(0.370 0.000 0.010)m/s^2
+01-17 23:22:25.390 13603 14082 V IMU     : dt=0.017s accel=(0.360 0.000 -0.010)m/s^2
+01-17 23:22:25.407 13603 14082 V IMU     : dt=0.016s accel=(0.350 0.000 -0.030)m/s^2
+01-17 23:22:25.424 13603 14082 V IMU     : dt=0.015s accel=(0.360 0.000 0.020)m/s^2
+01-17 23:22:25.437 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:25.459 13603 14082 V IMU     : dt=0.021s accel=(0.350 0.000 -0.010)m/s^2
+01-17 23:22:25.478 13603 14082 V IMU     : dt=0.019s accel=(0.360 0.000 -0.010)m/s^2
+01-17 23:22:25.502 13603 14082 V IMU     : dt=0.024s accel=(0.360 0.000 -0.010)m/s^2
+01-17 23:22:25.519 13603 14082 V IMU     : dt=0.017s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:25.549 13603 14031 I zygote  : IncrementDisableThreadFlip blocked for 5.418ms
+01-17 23:22:25.549 13603 14026 I zygote  : IncrementDisableThreadFlip blocked for 5.800ms
+01-17 23:22:25.561 13603 14082 V IMU     : dt=0.042s accel=(0.380 0.000 -0.010)m/s^2
+01-17 23:22:25.577 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:25.591 13603 14082 V IMU     : dt=0.015s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:25.608 13603 14082 V IMU     : dt=0.017s accel=(0.350 -0.020 0.000)m/s^2
+01-17 23:22:25.623 13603 14082 V IMU     : dt=0.013s accel=(0.360 -0.010 -0.020)m/s^2
+01-17 23:22:25.636 13603 14082 V IMU     : dt=0.015s accel=(0.360 -0.020 0.000)m/s^2
+01-17 23:22:25.652 13603 14082 V IMU     : dt=0.016s accel=(0.370 0.000 -0.020)m/s^2
+01-17 23:22:25.681 13603 14082 V IMU     : dt=0.028s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:25.696 13603 14082 V IMU     : dt=0.015s accel=(0.370 -0.010 0.000)m/s^2
+01-17 23:22:25.716 13603 14082 V IMU     : dt=0.018s accel=(0.360 -0.020 -0.010)m/s^2
+01-17 23:22:25.745 13603 14082 V IMU     : dt=0.027s accel=(0.370 0.000 -0.010)m/s^2
+01-17 23:22:25.754 13603 14082 V IMU     : dt=0.011s accel=(0.360 -0.010 0.020)m/s^2
+01-17 23:22:25.783 13603 14082 V IMU     : dt=0.032s accel=(0.380 0.000 0.000)m/s^2
+01-17 23:22:25.808 13603 14082 V IMU     : dt=0.024s accel=(0.360 0.000 -0.030)m/s^2
+01-17 23:22:25.834 13603 14082 V IMU     : dt=0.026s accel=(0.360 0.000 0.020)m/s^2
+01-17 23:22:25.855 13603 14082 V IMU     : dt=0.021s accel=(0.370 -0.010 -0.010)m/s^2
+01-17 23:22:25.873 13603 14082 V IMU     : dt=0.017s accel=(0.380 -0.010 -0.010)m/s^2
+01-17 23:22:25.887 13603 14082 V IMU     : dt=0.015s accel=(0.370 -0.020 0.000)m/s^2
+01-17 23:22:25.905 13603 14082 V IMU     : dt=0.018s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:25.920 13603 14082 V IMU     : dt=0.016s accel=(0.380 -0.010 -0.030)m/s^2
+01-17 23:22:25.944 13603 14082 V IMU     : dt=0.023s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:25.990 13603 14082 V IMU     : dt=0.045s accel=(0.350 -0.030 -0.020)m/s^2
+01-17 23:22:26.009 13603 14082 V IMU     : dt=0.019s accel=(0.370 -0.010 0.000)m/s^2
+01-17 23:22:26.031 13603 14082 V IMU     : dt=0.023s accel=(0.360 0.000 -0.010)m/s^2
+01-17 23:22:26.063 13603 14082 V IMU     : dt=0.031s accel=(0.360 0.000 -0.010)m/s^2
+01-17 23:22:26.081 13603 14082 V IMU     : dt=0.019s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:26.105 13603 13615 I zygote  : NativeAlloc concurrent copying GC freed 72524(2MB) AllocSpace objects, 0(0B) LOS objects, 50% free, 12MB/25MB, paused 227us total 572.714ms
+01-17 23:22:26.126 13603 14082 V IMU     : dt=0.043s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:26.145 13603 14082 V IMU     : dt=0.021s accel=(0.380 0.000 -0.020)m/s^2
+01-17 23:22:26.163 13603 14082 V IMU     : dt=0.018s accel=(0.360 -0.010 -0.020)m/s^2
+01-17 23:22:26.180 13603 14082 V IMU     : dt=0.018s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:26.206 13603 14082 V IMU     : dt=0.024s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:26.220 13603 14082 V IMU     : dt=0.015s accel=(0.360 -0.010 0.010)m/s^2
+01-17 23:22:26.237 13603 14082 V IMU     : dt=0.017s accel=(0.370 0.000 -0.020)m/s^2
+01-17 23:22:26.253 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.030 0.000)m/s^2
+01-17 23:22:26.275 13603 14082 V IMU     : dt=0.022s accel=(0.360 -0.020 0.000)m/s^2
+01-17 23:22:26.294 13603 14082 V IMU     : dt=0.018s accel=(0.360 0.000 -0.020)m/s^2
+01-17 23:22:26.310 13603 14082 V IMU     : dt=0.017s accel=(0.360 -0.010 -0.020)m/s^2
+01-17 23:22:26.327 13603 14082 V IMU     : dt=0.017s accel=(0.370 -0.010 -0.030)m/s^2
+01-17 23:22:26.344 13603 14082 V IMU     : dt=0.017s accel=(0.370 -0.010 0.020)m/s^2
+01-17 23:22:26.361 13603 14082 V IMU     : dt=0.017s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:26.378 13603 14082 V IMU     : dt=0.017s accel=(0.370 0.000 -0.010)m/s^2
+01-17 23:22:26.394 13603 14082 V IMU     : dt=0.016s accel=(0.370 0.000 -0.010)m/s^2
+01-17 23:22:26.409 13603 14082 V IMU     : dt=0.016s accel=(0.370 -0.020 -0.010)m/s^2
+01-17 23:22:26.426 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.020 0.000)m/s^2
+01-17 23:22:26.442 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:26.458 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:26.475 13603 14082 V IMU     : dt=0.017s accel=(0.370 0.010 0.000)m/s^2
+01-17 23:22:26.491 13603 14082 V IMU     : dt=0.016s accel=(0.370 -0.010 -0.010)m/s^2
+01-17 23:22:26.507 13603 14082 V IMU     : dt=0.016s accel=(0.350 0.000 0.000)m/s^2
+01-17 23:22:26.525 13603 14082 V IMU     : dt=0.018s accel=(0.360 0.010 0.000)m/s^2
+01-17 23:22:26.541 13603 14082 V IMU     : dt=0.016s accel=(0.350 -0.010 -0.020)m/s^2
+01-17 23:22:26.561 13603 14082 V IMU     : dt=0.021s accel=(0.380 0.000 -0.010)m/s^2
+01-17 23:22:26.578 13603 14082 V IMU     : dt=0.017s accel=(0.370 -0.020 0.020)m/s^2
+01-17 23:22:26.597 13603 14082 V IMU     : dt=0.016s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:26.611 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:26.629 13603 14082 V IMU     : dt=0.018s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:26.643 13603 14082 V IMU     : dt=0.014s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:26.660 13603 14082 V IMU     : dt=0.016s accel=(0.370 0.000 0.010)m/s^2
+01-17 23:22:26.677 13603 14082 V IMU     : dt=0.017s accel=(0.370 -0.010 -0.010)m/s^2
+01-17 23:22:26.691 13603 14082 V IMU     : dt=0.015s accel=(0.360 0.000 0.010)m/s^2
+01-17 23:22:26.710 13603 14082 V IMU     : dt=0.017s accel=(0.370 -0.020 -0.010)m/s^2
+01-17 23:22:26.725 13603 14082 V IMU     : dt=0.016s accel=(0.380 0.000 0.000)m/s^2
+01-17 23:22:26.744 13603 14082 V IMU     : dt=0.017s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:26.756 13603 14082 V IMU     : dt=0.014s accel=(0.370 0.000 0.010)m/s^2
+01-17 23:22:26.773 13603 14082 V IMU     : dt=0.017s accel=(0.360 0.000 -0.010)m/s^2
+01-17 23:22:26.791 13603 14082 V IMU     : dt=0.019s accel=(0.360 0.000 -0.010)m/s^2
+01-17 23:22:26.808 13603 14082 V IMU     : dt=0.016s accel=(0.380 -0.010 0.010)m/s^2
+01-17 23:22:26.828 13603 14082 V IMU     : dt=0.021s accel=(0.360 0.000 -0.010)m/s^2
+01-17 23:22:26.846 13603 14082 V IMU     : dt=0.018s accel=(0.360 0.000 -0.030)m/s^2
+01-17 23:22:26.863 13603 14082 V IMU     : dt=0.017s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:26.879 13603 14082 V IMU     : dt=0.016s accel=(0.350 0.000 0.000)m/s^2
+01-17 23:22:26.898 13603 14082 V IMU     : dt=0.019s accel=(0.360 -0.020 0.000)m/s^2
+01-17 23:22:26.916 13603 14082 V IMU     : dt=0.018s accel=(0.370 0.000 0.020)m/s^2
+01-17 23:22:26.934 13603 14082 V IMU     : dt=0.018s accel=(0.360 -0.020 -0.010)m/s^2
+01-17 23:22:26.954 13603 14082 V IMU     : dt=0.020s accel=(0.360 0.000 0.010)m/s^2
+01-17 23:22:26.970 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:26.986 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 0.020)m/s^2
+01-17 23:22:27.003 13603 14082 V IMU     : dt=0.017s accel=(0.380 0.000 0.010)m/s^2
+01-17 23:22:27.020 13603 14082 V IMU     : dt=0.017s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:27.036 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.020 0.000)m/s^2
+01-17 23:22:27.054 13603 14082 V IMU     : dt=0.018s accel=(0.380 0.000 0.000)m/s^2
+01-17 23:22:27.074 13603 14082 V IMU     : dt=0.020s accel=(0.370 0.000 -0.010)m/s^2
+01-17 23:22:27.093 13603 14082 V IMU     : dt=0.018s accel=(0.370 -0.010 0.000)m/s^2
+01-17 23:22:27.112 13603 14082 V IMU     : dt=0.019s accel=(0.380 -0.020 0.000)m/s^2
+01-17 23:22:27.134 13603 14082 V IMU     : dt=0.023s accel=(0.360 -0.020 0.000)m/s^2
+01-17 23:22:27.150 13603 14082 V IMU     : dt=0.016s accel=(0.350 -0.010 0.000)m/s^2
+01-17 23:22:27.168 13603 14082 V IMU     : dt=0.018s accel=(0.360 0.010 0.000)m/s^2
+01-17 23:22:27.190 13603 14082 V IMU     : dt=0.022s accel=(0.370 -0.010 0.010)m/s^2
+01-17 23:22:27.206 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 0.010)m/s^2
+01-17 23:22:27.224 13603 14082 V IMU     : dt=0.018s accel=(0.360 0.010 0.000)m/s^2
+01-17 23:22:27.242 13603 14082 V IMU     : dt=0.018s accel=(0.380 0.000 0.010)m/s^2
+01-17 23:22:27.258 13603 14082 V IMU     : dt=0.016s accel=(0.350 0.010 0.010)m/s^2
+01-17 23:22:27.276 13603 14082 V IMU     : dt=0.018s accel=(0.360 0.010 0.000)m/s^2
+01-17 23:22:27.292 13603 14082 V IMU     : dt=0.017s accel=(0.360 -0.010 0.020)m/s^2
+01-17 23:22:27.312 13603 14082 V IMU     : dt=0.019s accel=(0.360 0.010 0.000)m/s^2
+01-17 23:22:27.329 13603 14082 V IMU     : dt=0.017s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:27.344 13603 14082 V IMU     : dt=0.015s accel=(0.370 -0.010 0.010)m/s^2
+01-17 23:22:27.358 13603 14082 V IMU     : dt=0.015s accel=(0.360 0.000 0.010)m/s^2
+01-17 23:22:27.375 13603 14082 V IMU     : dt=0.017s accel=(0.370 -0.010 0.000)m/s^2
+01-17 23:22:27.392 13603 14082 V IMU     : dt=0.017s accel=(0.350 0.000 0.000)m/s^2
+01-17 23:22:27.407 13603 14082 V IMU     : dt=0.015s accel=(0.360 -0.010 0.020)m/s^2
+01-17 23:22:27.428 13603 14082 V IMU     : dt=0.021s accel=(0.350 0.000 0.020)m/s^2
+01-17 23:22:27.446 13603 14082 V IMU     : dt=0.018s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:27.463 13603 13615 I zygote  : NativeAlloc concurrent copying GC freed 62747(2MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 12MB/24MB, paused 155us total 291.800ms
+01-17 23:22:27.464 13603 14082 V IMU     : dt=0.018s accel=(0.370 0.020 0.010)m/s^2
+01-17 23:22:27.485 13603 14082 V IMU     : dt=0.020s accel=(0.360 0.000 -0.010)m/s^2
+01-17 23:22:27.508 13603 14082 V IMU     : dt=0.023s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:27.525 13603 14082 V IMU     : dt=0.018s accel=(0.350 0.010 0.000)m/s^2
+01-17 23:22:27.543 13603 14082 V IMU     : dt=0.018s accel=(0.350 0.000 0.000)m/s^2
+01-17 23:22:27.555 13603 14082 V IMU     : dt=0.012s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:27.569 13603 14082 V IMU     : dt=0.014s accel=(0.370 0.010 0.000)m/s^2
+01-17 23:22:27.597 13603 14082 V IMU     : dt=0.028s accel=(0.380 -0.010 0.000)m/s^2
+01-17 23:22:27.613 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:27.629 13603 14082 V IMU     : dt=0.016s accel=(0.350 -0.010 -0.030)m/s^2
+01-17 23:22:27.654 13603 14082 V IMU     : dt=0.025s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:27.673 13603 14082 V IMU     : dt=0.018s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:27.694 13603 14082 V IMU     : dt=0.022s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:27.700 13603 14137 I native  : Initializing object tracker. 275x154 @0x8169585c
+01-17 23:22:27.705 13603 14137 I native  : Initialized!
+01-17 23:22:27.714 13603 14082 V IMU     : dt=0.020s accel=(0.350 -0.010 0.010)m/s^2
+01-17 23:22:27.730 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.020 -0.020)m/s^2
+01-17 23:22:27.769 13603 14082 V IMU     : dt=0.034s accel=(0.360 0.010 0.020)m/s^2
+01-17 23:22:27.785 13603 14082 V IMU     : dt=0.017s accel=(0.370 0.000 -0.010)m/s^2
+01-17 23:22:27.825 13603 14082 V IMU     : dt=0.035s accel=(0.350 -0.010 -0.020)m/s^2
+01-17 23:22:27.836 13603 14082 V IMU     : dt=0.020s accel=(0.350 -0.030 -0.020)m/s^2
+01-17 23:22:27.865 13603 14082 V IMU     : dt=0.018s accel=(0.360 0.000 0.020)m/s^2
+01-17 23:22:27.889 13603 14082 V IMU     : dt=0.034s accel=(0.370 0.000 -0.010)m/s^2
+01-17 23:22:27.911 13603 14082 V IMU     : dt=0.020s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:27.924 13603 14082 V IMU     : dt=0.016s accel=(0.340 -0.010 -0.010)m/s^2
+01-17 23:22:27.973 13603 14082 V IMU     : dt=0.049s accel=(0.360 -0.010 -0.020)m/s^2
+01-17 23:22:28.011 13603 14082 V IMU     : dt=0.034s accel=(0.360 0.000 0.010)m/s^2
+01-17 23:22:28.065 13603 14082 V IMU     : dt=0.058s accel=(0.380 0.000 -0.010)m/s^2
+01-17 23:22:28.084 13603 14082 V IMU     : dt=0.018s accel=(0.370 -0.020 0.000)m/s^2
+01-17 23:22:28.100 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:28.116 13603 14082 V IMU     : dt=0.017s accel=(0.370 -0.010 0.010)m/s^2
+01-17 23:22:28.146 13603 14082 V IMU     : dt=0.028s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:28.165 13603 14082 V IMU     : dt=0.020s accel=(0.360 -0.020 0.020)m/s^2
+01-17 23:22:28.180 13603 14082 V IMU     : dt=0.015s accel=(0.360 0.010 0.020)m/s^2
+01-17 23:22:28.197 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.010 0.000)m/s^2
+01-17 23:22:28.210 13603 14082 V IMU     : dt=0.015s accel=(0.360 0.000 -0.010)m/s^2
+01-17 23:22:28.230 13603 14082 V IMU     : dt=0.018s accel=(0.360 0.000 -0.020)m/s^2
+01-17 23:22:28.246 13603 14082 V IMU     : dt=0.018s accel=(0.360 0.000 -0.020)m/s^2
+01-17 23:22:28.262 13603 14082 V IMU     : dt=0.016s accel=(0.380 0.000 0.000)m/s^2
+01-17 23:22:28.280 13603 14082 V IMU     : dt=0.018s accel=(0.370 -0.010 0.000)m/s^2
+01-17 23:22:28.300 13603 14082 V IMU     : dt=0.018s accel=(0.360 -0.010 -0.010)m/s^2
+01-17 23:22:28.330 13603 14082 V IMU     : dt=0.022s accel=(0.370 -0.010 0.010)m/s^2
+01-17 23:22:28.345 13603 14082 V IMU     : dt=0.025s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:28.374 13603 14082 V IMU     : dt=0.029s accel=(0.380 0.000 0.000)m/s^2
+01-17 23:22:28.389 13603 14082 V IMU     : dt=0.015s accel=(0.370 -0.010 0.000)m/s^2
+01-17 23:22:28.405 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.020 0.020)m/s^2
+01-17 23:22:28.424 13603 14082 V IMU     : dt=0.017s accel=(0.380 0.000 0.000)m/s^2
+01-17 23:22:28.444 13603 14082 V IMU     : dt=0.022s accel=(0.360 -0.010 -0.010)m/s^2
+01-17 23:22:28.462 13603 14082 V IMU     : dt=0.017s accel=(0.340 0.000 0.000)m/s^2
+01-17 23:22:28.474 13603 13615 I zygote  : ThreadFlipBegin blocked for 8.859ms
+01-17 23:22:28.476 13603 14031 I zygote  : IncrementDisableThreadFlip blocked for 9.977ms
+01-17 23:22:28.476 13603 14082 I zygote  : IncrementDisableThreadFlip blocked for 9.357ms
+01-17 23:22:28.502 13603 14082 V IMU     : dt=0.040s accel=(0.350 0.000 -0.010)m/s^2
+01-17 23:22:28.527 13603 14082 V IMU     : dt=0.025s accel=(0.370 0.000 -0.030)m/s^2
+01-17 23:22:28.553 13603 14082 V IMU     : dt=0.025s accel=(0.360 0.010 -0.020)m/s^2
+01-17 23:22:28.571 13603 14082 V IMU     : dt=0.019s accel=(0.380 -0.010 -0.010)m/s^2
+01-17 23:22:28.603 13603 14082 V IMU     : dt=0.032s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:28.622 13603 14082 V IMU     : dt=0.019s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:28.639 13603 14082 V IMU     : dt=0.018s accel=(0.370 -0.010 -0.030)m/s^2
+01-17 23:22:28.659 13603 14082 V IMU     : dt=0.019s accel=(0.390 0.000 -0.010)m/s^2
+01-17 23:22:28.677 13603 14082 V IMU     : dt=0.018s accel=(0.350 0.000 -0.010)m/s^2
+01-17 23:22:28.700 13603 14082 V IMU     : dt=0.024s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:28.719 13603 14082 V IMU     : dt=0.018s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:28.736 13603 14082 V IMU     : dt=0.017s accel=(0.360 -0.010 0.020)m/s^2
+01-17 23:22:28.766 13603 14082 V IMU     : dt=0.028s accel=(0.360 0.000 -0.020)m/s^2
+01-17 23:22:28.783 13603 14082 V IMU     : dt=0.020s accel=(0.370 0.000 0.010)m/s^2
+01-17 23:22:28.801 13603 14082 V IMU     : dt=0.016s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:28.817 13603 14082 V IMU     : dt=0.017s accel=(0.350 -0.020 0.020)m/s^2
+01-17 23:22:28.831 13603 14139 W YuvRgbFrame.8786821990513: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:28.831 13603 14139 W YuvRgbFrame.8786821990513: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:28.844 13603 14082 V IMU     : dt=0.027s accel=(0.370 -0.010 0.000)m/s^2
+01-17 23:22:28.861 13603 14082 V IMU     : dt=0.017s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:28.877 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 -0.010)m/s^2
+01-17 23:22:28.886 13603 14140 W YuvRgbFrame.8786949269588: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:28.886 13603 14140 W YuvRgbFrame.8786949269588: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:28.895 13603 14082 V IMU     : dt=0.018s accel=(0.360 0.000 -0.010)m/s^2
+01-17 23:22:28.909 13603 14082 V IMU     : dt=0.015s accel=(0.360 -0.010 -0.010)m/s^2
+01-17 23:22:28.939 13603 14082 V IMU     : dt=0.029s accel=(0.380 0.010 0.000)m/s^2
+01-17 23:22:28.960 13603 14082 V IMU     : dt=0.021s accel=(0.360 0.000 -0.020)m/s^2
+01-17 23:22:28.978 13603 14082 V IMU     : dt=0.018s accel=(0.370 -0.020 -0.020)m/s^2
+01-17 23:22:28.998 13603 14082 V IMU     : dt=0.016s accel=(0.370 0.000 -0.010)m/s^2
+01-17 23:22:29.015 13603 14082 V IMU     : dt=0.021s accel=(0.390 0.000 0.000)m/s^2
+01-17 23:22:29.035 13603 14082 V IMU     : dt=0.020s accel=(0.350 0.000 -0.010)m/s^2
+01-17 23:22:29.060 13603 14082 V IMU     : dt=0.018s accel=(0.380 -0.010 0.000)m/s^2
+01-17 23:22:29.082 13603 14082 V IMU     : dt=0.025s accel=(0.360 0.000 0.010)m/s^2
+01-17 23:22:29.091 13603 14082 V IMU     : dt=0.013s accel=(0.350 0.000 0.000)m/s^2
+01-17 23:22:29.113 13603 14082 V IMU     : dt=0.022s accel=(0.380 0.010 0.000)m/s^2
+01-17 23:22:29.131 13603 14082 V IMU     : dt=0.017s accel=(0.370 -0.010 -0.010)m/s^2
+01-17 23:22:29.154 13603 14082 V IMU     : dt=0.023s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:29.176 13603 14082 V IMU     : dt=0.019s accel=(0.360 0.000 -0.010)m/s^2
+01-17 23:22:29.184 13603 13615 I zygote  : Background concurrent copying GC freed 45440(1627KB) AllocSpace objects, 15(7MB) LOS objects, 47% free, 26MB/50MB, paused 753us total 700.557ms
+01-17 23:22:29.200 13603 14082 V IMU     : dt=0.026s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:29.237 13603 14082 V IMU     : dt=0.038s accel=(0.360 0.000 0.010)m/s^2
+01-17 23:22:29.256 13603 14082 V IMU     : dt=0.018s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:29.271 13603 14082 V IMU     : dt=0.015s accel=(0.360 0.930 0.300)m/s^2
+01-17 23:22:29.290 13603 14082 V IMU     : dt=0.019s accel=(-1.900 2.830 2.560)m/s^2
+01-17 23:22:29.320 13603 14082 V IMU     : dt=0.030s accel=(0.720 1.070 3.130)m/s^2
+01-17 23:22:29.337 13603 14082 V IMU     : dt=0.017s accel=(-1.010 3.150 -1.270)m/s^2
+01-17 23:22:29.350 13603 14083 I System.out: here
+01-17 23:22:29.366 13603 14083 I System.out: here
+01-17 23:22:29.368 13603 14082 V IMU     : dt=0.032s accel=(1.870 2.590 -0.620)m/s^2
+01-17 23:22:29.389 13603 14083 I System.out: here
+01-17 23:22:29.391 13603 14082 V IMU     : dt=0.023s accel=(-3.620 2.860 1.100)m/s^2
+01-17 23:22:29.399 13603 14083 I System.out: here
+01-17 23:22:29.409 13603 14082 V IMU     : dt=0.018s accel=(-1.400 1.700 -1.680)m/s^2
+01-17 23:22:29.420 13603 14083 I System.out: here
+01-17 23:22:29.434 13603 14082 V IMU     : dt=0.024s accel=(2.760 1.650 -2.100)m/s^2
+01-17 23:22:29.441 13603 14083 I System.out: here
+01-17 23:22:29.450 13603 14082 V IMU     : dt=0.017s accel=(0.770 2.390 -1.240)m/s^2
+01-17 23:22:29.454 13603 14083 I System.out: here
+01-17 23:22:29.469 13603 14083 I System.out: here
+01-17 23:22:29.472 13603 14082 V IMU     : dt=0.021s accel=(-1.160 1.520 1.880)m/s^2
+01-17 23:22:29.490 13603 14083 I System.out: here
+01-17 23:22:29.492 13603 14082 V IMU     : dt=0.021s accel=(-3.190 -2.160 -0.460)m/s^2
+01-17 23:22:29.510 13603 14083 I System.out: here
+01-17 23:22:29.512 13603 14082 V IMU     : dt=0.020s accel=(0.950 -0.690 -0.350)m/s^2
+01-17 23:22:29.524 13603 14083 I System.out: here
+01-17 23:22:29.537 13603 14082 V IMU     : dt=0.025s accel=(0.330 0.270 -0.100)m/s^2
+01-17 23:22:29.542 13603 14083 I System.out: here
+01-17 23:22:29.577 13603 14082 V IMU     : dt=0.040s accel=(2.870 -0.650 -2.180)m/s^2
+01-17 23:22:29.597 13603 14082 V IMU     : dt=0.020s accel=(2.700 -3.670 -2.020)m/s^2
+01-17 23:22:29.613 13603 14082 V IMU     : dt=0.016s accel=(-1.790 -4.300 -2.190)m/s^2
+01-17 23:22:29.631 13603 14082 V IMU     : dt=0.018s accel=(0.560 -3.930 -1.930)m/s^2
+01-17 23:22:29.651 13603 14082 V IMU     : dt=0.020s accel=(0.120 -3.810 1.680)m/s^2
+01-17 23:22:29.667 13603 14082 V IMU     : dt=0.016s accel=(0.360 -2.550 1.160)m/s^2
+01-17 23:22:29.687 13603 14082 V IMU     : dt=0.018s accel=(-1.320 -2.850 0.920)m/s^2
+01-17 23:22:29.702 13603 14082 V IMU     : dt=0.017s accel=(0.660 -0.750 0.350)m/s^2
+01-17 23:22:29.718 13603 14082 V IMU     : dt=0.016s accel=(0.570 -1.520 -0.450)m/s^2
+01-17 23:22:29.734 13603 14082 V IMU     : dt=0.016s accel=(0.250 -0.370 0.090)m/s^2
+01-17 23:22:29.751 13603 14082 V IMU     : dt=0.017s accel=(-0.210 -1.020 0.260)m/s^2
+01-17 23:22:29.761 13603 14139 W YuvRgbFrame.8788102569755: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:29.761 13603 14139 I chatty  : uid=10080(com.qualcomm.ftcrobotcontroller) pool-49-thread- identical 1 line
+01-17 23:22:29.761 13603 14139 W YuvRgbFrame.8788102569755: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:29.772 13603 14082 V IMU     : dt=0.019s accel=(0.510 -0.320 0.100)m/s^2
+01-17 23:22:29.786 13603 14082 V IMU     : dt=0.016s accel=(0.400 0.220 -0.310)m/s^2
+01-17 23:22:29.802 13603 14082 V IMU     : dt=0.016s accel=(0.410 0.260 0.060)m/s^2
+01-17 23:22:29.820 13603 14082 V IMU     : dt=0.018s accel=(0.340 0.000 -0.150)m/s^2
+01-17 23:22:29.835 13603 14082 V IMU     : dt=0.015s accel=(0.310 0.330 -0.030)m/s^2
+01-17 23:22:29.861 13603 14082 V IMU     : dt=0.026s accel=(0.210 -0.150 0.120)m/s^2
+01-17 23:22:29.878 13603 14082 V IMU     : dt=0.016s accel=(0.410 -0.230 0.080)m/s^2
+01-17 23:22:29.892 13603 14082 V IMU     : dt=0.015s accel=(0.160 -0.060 -0.210)m/s^2
+01-17 23:22:29.913 13603 14082 V IMU     : dt=0.021s accel=(0.340 -0.020 -0.020)m/s^2
+01-17 23:22:29.929 13603 14082 V IMU     : dt=0.016s accel=(0.220 0.000 0.030)m/s^2
+01-17 23:22:29.948 13603 14082 V IMU     : dt=0.019s accel=(0.360 -0.030 -0.010)m/s^2
+01-17 23:22:29.964 13603 14082 V IMU     : dt=0.016s accel=(0.290 0.110 -0.060)m/s^2
+01-17 23:22:29.983 13603 14082 V IMU     : dt=0.019s accel=(0.340 0.080 -0.030)m/s^2
+01-17 23:22:30.004 13603 14082 V IMU     : dt=0.021s accel=(0.300 0.000 -0.010)m/s^2
+01-17 23:22:30.022 13603 14082 V IMU     : dt=0.018s accel=(0.380 -0.070 0.010)m/s^2
+01-17 23:22:30.038 13603 14082 V IMU     : dt=0.016s accel=(0.300 -0.110 0.020)m/s^2
+01-17 23:22:30.058 13603 14082 V IMU     : dt=0.020s accel=(0.410 0.020 0.010)m/s^2
+01-17 23:22:30.074 13603 14082 V IMU     : dt=0.016s accel=(0.300 -0.240 -0.090)m/s^2
+01-17 23:22:30.110 13603 14082 V IMU     : dt=0.034s accel=(0.300 -0.170 0.020)m/s^2
+01-17 23:22:30.130 13603 14082 V IMU     : dt=0.021s accel=(0.420 -0.110 -0.080)m/s^2
+01-17 23:22:30.152 13603 14082 V IMU     : dt=0.021s accel=(0.430 0.000 -0.230)m/s^2
+01-17 23:22:30.172 13603 14082 V IMU     : dt=0.022s accel=(0.220 0.180 0.000)m/s^2
+01-17 23:22:30.198 13603 14082 V IMU     : dt=0.018s accel=(0.440 0.090 -0.010)m/s^2
+01-17 23:22:30.210 13603 14082 V IMU     : dt=0.020s accel=(0.320 -0.210 -0.010)m/s^2
+01-17 23:22:30.227 13603 14140 W YuvRgbFrame.8788717321431: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:30.228 13603 14140 I chatty  : uid=10080(com.qualcomm.ftcrobotcontroller) pool-49-thread- identical 3 lines
+01-17 23:22:30.228 13603 14140 W YuvRgbFrame.8788717321431: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:30.229 13603 14082 V IMU     : dt=0.016s accel=(0.240 0.030 0.220)m/s^2
+01-17 23:22:30.252 13603 14082 V IMU     : dt=0.025s accel=(0.470 -0.050 -0.210)m/s^2
+01-17 23:22:30.269 13603 14082 V IMU     : dt=0.016s accel=(0.380 -0.140 0.000)m/s^2
+01-17 23:22:30.288 13603 14082 V IMU     : dt=0.021s accel=(0.520 0.220 0.050)m/s^2
+01-17 23:22:30.307 13603 14082 V IMU     : dt=0.019s accel=(0.280 0.090 -0.120)m/s^2
+01-17 23:22:30.322 13603 14082 V IMU     : dt=0.016s accel=(0.440 0.000 -0.010)m/s^2
+01-17 23:22:30.331 13603 13615 I zygote  : NativeAlloc concurrent copying GC freed 51869(1770KB) AllocSpace objects, 38(17MB) LOS objects, 50% free, 23MB/47MB, paused 777us total 555.253ms
+01-17 23:22:30.362 13603 14082 V IMU     : dt=0.039s accel=(0.340 -0.210 -0.260)m/s^2
+01-17 23:22:30.377 13603 14082 V IMU     : dt=0.016s accel=(0.220 -0.200 -0.080)m/s^2
+01-17 23:22:30.398 13603 14082 V IMU     : dt=0.020s accel=(0.120 -0.020 0.210)m/s^2
+01-17 23:22:30.415 13603 14082 V IMU     : dt=0.018s accel=(0.530 0.160 0.010)m/s^2
+01-17 23:22:30.438 13603 14082 V IMU     : dt=0.021s accel=(0.300 -0.230 0.050)m/s^2
+01-17 23:22:30.454 13603 14082 V IMU     : dt=0.017s accel=(0.560 -0.420 0.100)m/s^2
+01-17 23:22:30.471 13603 14082 V IMU     : dt=0.017s accel=(0.420 0.210 -0.110)m/s^2
+01-17 23:22:30.489 13603 14082 V IMU     : dt=0.017s accel=(0.670 0.450 0.110)m/s^2
+01-17 23:22:30.506 13603 14082 V IMU     : dt=0.017s accel=(0.210 0.420 0.130)m/s^2
+01-17 23:22:30.526 13603 14082 V IMU     : dt=0.019s accel=(0.520 0.100 -0.350)m/s^2
+01-17 23:22:30.544 13603 14082 V IMU     : dt=0.020s accel=(0.580 0.320 0.030)m/s^2
+01-17 23:22:30.565 13603 14082 V IMU     : dt=0.020s accel=(0.370 -0.080 0.180)m/s^2
+01-17 23:22:30.590 13603 14082 V IMU     : dt=0.027s accel=(0.310 -0.020 0.200)m/s^2
+01-17 23:22:30.604 13603 14082 V IMU     : dt=0.013s accel=(0.580 0.030 0.000)m/s^2
+01-17 23:22:30.627 13603 14082 V IMU     : dt=0.023s accel=(0.390 -0.010 0.040)m/s^2
+01-17 23:22:30.645 13603 14082 V IMU     : dt=0.018s accel=(0.340 0.010 0.030)m/s^2
+01-17 23:22:30.666 13603 14082 V IMU     : dt=0.022s accel=(0.390 0.040 -0.070)m/s^2
+01-17 23:22:30.690 13603 14082 V IMU     : dt=0.022s accel=(0.290 -0.080 -0.100)m/s^2
+01-17 23:22:30.713 13603 14082 V IMU     : dt=0.024s accel=(0.250 -0.020 0.060)m/s^2
+01-17 23:22:30.737 13603 14082 V IMU     : dt=0.023s accel=(0.420 -0.010 -0.020)m/s^2
+01-17 23:22:30.756 13603 14082 V IMU     : dt=0.020s accel=(0.300 -0.010 -0.050)m/s^2
+01-17 23:22:30.780 13603 14082 V IMU     : dt=0.019s accel=(0.370 0.020 -0.030)m/s^2
+01-17 23:22:30.793 13603 14082 V IMU     : dt=0.018s accel=(0.330 0.080 0.050)m/s^2
+01-17 23:22:30.811 13603 14082 V IMU     : dt=0.019s accel=(0.400 -0.040 0.010)m/s^2
+01-17 23:22:30.827 13603 14082 V IMU     : dt=0.016s accel=(0.340 -0.030 0.010)m/s^2
+01-17 23:22:30.844 13603 14082 V IMU     : dt=0.015s accel=(0.350 0.010 0.070)m/s^2
+01-17 23:22:30.858 13603 14082 V IMU     : dt=0.015s accel=(0.390 0.010 -0.010)m/s^2
+01-17 23:22:30.885 13603 14082 V IMU     : dt=0.026s accel=(0.340 0.020 0.000)m/s^2
+01-17 23:22:30.909 13603 14082 V IMU     : dt=0.014s accel=(0.360 -0.020 0.010)m/s^2
+01-17 23:22:30.938 13603 14082 V IMU     : dt=0.041s accel=(0.340 -0.010 0.010)m/s^2
+01-17 23:22:30.958 13603 14082 V IMU     : dt=0.020s accel=(0.360 0.010 0.020)m/s^2
+01-17 23:22:30.974 13603 14082 V IMU     : dt=0.016s accel=(0.380 -0.020 -0.020)m/s^2
+01-17 23:22:30.991 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.020 0.010)m/s^2
+01-17 23:22:31.016 13603 14082 V IMU     : dt=0.017s accel=(0.370 -0.010 0.000)m/s^2
+01-17 23:22:31.030 13603 14082 V IMU     : dt=0.023s accel=(0.370 0.000 0.020)m/s^2
+01-17 23:22:31.046 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.030 0.010)m/s^2
+01-17 23:22:31.054 13603 14139 W YuvRgbFrame.8789289680864: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:31.054 13603 14139 I chatty  : uid=10080(com.qualcomm.ftcrobotcontroller) pool-49-thread- identical 1 line
+01-17 23:22:31.054 13603 14139 W YuvRgbFrame.8789289680864: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:31.062 13603 14082 V IMU     : dt=0.016s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:31.086 13603 14082 V IMU     : dt=0.023s accel=(0.360 -0.010 0.010)m/s^2
+01-17 23:22:31.105 13603 14082 V IMU     : dt=0.019s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:31.122 13603 14082 V IMU     : dt=0.017s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:31.142 13603 14082 V IMU     : dt=0.020s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:31.158 13603 14082 V IMU     : dt=0.016s accel=(0.350 0.000 0.020)m/s^2
+01-17 23:22:31.176 13603 14082 V IMU     : dt=0.017s accel=(0.360 0.000 -0.010)m/s^2
+01-17 23:22:31.195 13603 14082 V IMU     : dt=0.020s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:31.212 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:31.226 13603 14082 V IMU     : dt=0.016s accel=(0.350 0.010 -0.020)m/s^2
+01-17 23:22:31.242 13603 14082 V IMU     : dt=0.016s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:31.265 13603 14082 V IMU     : dt=0.023s accel=(0.350 0.000 0.050)m/s^2
+01-17 23:22:31.284 13603 14082 V IMU     : dt=0.019s accel=(0.370 -0.010 0.040)m/s^2
+01-17 23:22:31.293 13603 14140 W YuvRgbFrame.8789828180500: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:31.293 13603 14140 W YuvRgbFrame.8789828180500: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:31.300 13603 14082 V IMU     : dt=0.016s accel=(0.370 -0.040 0.000)m/s^2
+01-17 23:22:31.317 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 -0.010)m/s^2
+01-17 23:22:31.335 13603 14082 V IMU     : dt=0.018s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:31.355 13603 14082 V IMU     : dt=0.021s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:31.374 13603 14082 V IMU     : dt=0.018s accel=(0.360 -0.010 -0.020)m/s^2
+01-17 23:22:31.390 13603 14082 V IMU     : dt=0.016s accel=(0.350 -0.020 -0.010)m/s^2
+01-17 23:22:31.399 13603 14026 I zygote  : IncrementDisableThreadFlip blocked for 5.092ms
+01-17 23:22:31.412 13603 14082 V IMU     : dt=0.022s accel=(0.380 0.000 0.000)m/s^2
+01-17 23:22:31.432 13603 14082 V IMU     : dt=0.019s accel=(0.370 -0.010 0.020)m/s^2
+01-17 23:22:31.446 13603 14082 V IMU     : dt=0.015s accel=(0.350 0.000 0.010)m/s^2
+01-17 23:22:31.461 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 0.010)m/s^2
+01-17 23:22:31.484 13603 14082 V IMU     : dt=0.022s accel=(0.350 0.000 -0.010)m/s^2
+01-17 23:22:31.500 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:31.516 13603 14082 V IMU     : dt=0.016s accel=(0.350 0.000 -0.020)m/s^2
+01-17 23:22:31.532 13603 14082 V IMU     : dt=0.016s accel=(0.350 0.010 0.000)m/s^2
+01-17 23:22:31.547 13603 14082 V IMU     : dt=0.015s accel=(0.360 0.000 0.020)m/s^2
+01-17 23:22:31.564 13603 14082 V IMU     : dt=0.017s accel=(0.370 -0.020 -0.010)m/s^2
+01-17 23:22:31.581 13603 14082 V IMU     : dt=0.017s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:31.622 13603 14082 V IMU     : dt=0.041s accel=(0.390 0.000 -0.010)m/s^2
+01-17 23:22:31.639 13603 14082 V IMU     : dt=0.017s accel=(0.440 -0.030 -0.190)m/s^2
+01-17 23:22:31.661 13603 14082 V IMU     : dt=0.022s accel=(0.240 -0.020 0.160)m/s^2
+01-17 23:22:31.692 13603 14082 V IMU     : dt=0.031s accel=(0.370 0.030 -0.030)m/s^2
+01-17 23:22:31.708 13603 14082 V IMU     : dt=0.016s accel=(0.370 0.010 0.050)m/s^2
+01-17 23:22:31.725 13603 14082 V IMU     : dt=0.016s accel=(0.350 0.000 0.070)m/s^2
+01-17 23:22:31.750 13603 14082 V IMU     : dt=0.021s accel=(0.390 -0.010 -0.040)m/s^2
+01-17 23:22:31.779 13603 14082 V IMU     : dt=0.021s accel=(0.340 0.030 -0.010)m/s^2
+01-17 23:22:31.793 13603 14082 V IMU     : dt=0.027s accel=(0.360 -0.020 0.010)m/s^2
+01-17 23:22:31.846 13603 14082 V IMU     : dt=0.049s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:31.865 13603 14082 V IMU     : dt=0.023s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:31.890 13603 14082 V IMU     : dt=0.022s accel=(0.360 -0.030 0.010)m/s^2
+01-17 23:22:31.907 13603 14082 V IMU     : dt=0.017s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:31.919 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:31.949 13603 14139 W YuvRgbFrame.8790368189512: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:31.949 13603 14139 W YuvRgbFrame.8790368189512: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:31.968 13603 14082 V IMU     : dt=0.045s accel=(0.370 0.000 0.010)m/s^2
+01-17 23:22:31.985 13603 14082 V IMU     : dt=0.019s accel=(0.350 0.000 0.000)m/s^2
+01-17 23:22:31.986 13603 13615 I zygote  : NativeAlloc concurrent copying GC freed 64952(2MB) AllocSpace objects, 49(23MB) LOS objects, 50% free, 23MB/47MB, paused 2.905ms total 597.136ms
+01-17 23:22:32.003 13603 14082 V IMU     : dt=0.019s accel=(0.370 0.000 -0.010)m/s^2
+01-17 23:22:32.045 13603 14082 V IMU     : dt=0.043s accel=(0.380 0.000 0.000)m/s^2
+01-17 23:22:32.065 13603 14082 V IMU     : dt=0.020s accel=(0.360 0.000 -0.020)m/s^2
+01-17 23:22:32.083 13603 14082 V IMU     : dt=0.018s accel=(0.360 -0.030 0.000)m/s^2
+01-17 23:22:32.101 13603 14082 V IMU     : dt=0.016s accel=(0.350 0.000 0.000)m/s^2
+01-17 23:22:32.132 13603 14082 V IMU     : dt=0.033s accel=(0.370 -0.010 0.020)m/s^2
+01-17 23:22:32.147 13603 14082 V IMU     : dt=0.015s accel=(0.340 0.010 0.000)m/s^2
+01-17 23:22:32.163 13603 14082 V IMU     : dt=0.016s accel=(0.350 -0.030 0.010)m/s^2
+01-17 23:22:32.182 13603 14082 V IMU     : dt=0.019s accel=(0.360 0.000 -0.020)m/s^2
+01-17 23:22:32.193 13603 14140 W YuvRgbFrame.8790891795605: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:32.193 13603 14140 W YuvRgbFrame.8790891795605: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:32.208 13603 14082 V IMU     : dt=0.026s accel=(0.360 -0.010 0.000)m/s^2
+01-17 23:22:32.226 13603 14082 V IMU     : dt=0.018s accel=(0.340 -0.040 0.020)m/s^2
+01-17 23:22:32.242 13603 14082 V IMU     : dt=0.016s accel=(0.370 0.000 -0.020)m/s^2
+01-17 23:22:32.259 13603 14082 V IMU     : dt=0.017s accel=(0.340 0.000 0.010)m/s^2
+01-17 23:22:32.275 13603 14082 V IMU     : dt=0.016s accel=(0.380 -0.010 0.010)m/s^2
+01-17 23:22:32.291 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:32.316 13603 14082 V IMU     : dt=0.025s accel=(0.380 0.000 0.000)m/s^2
+01-17 23:22:32.334 13603 14082 V IMU     : dt=0.018s accel=(0.350 0.010 0.000)m/s^2
+01-17 23:22:32.356 13603 14082 V IMU     : dt=0.020s accel=(0.370 0.000 -0.020)m/s^2
+01-17 23:22:32.375 13603 14082 V IMU     : dt=0.018s accel=(0.380 -0.020 0.000)m/s^2
+01-17 23:22:32.397 13603 14082 V IMU     : dt=0.025s accel=(0.360 0.000 0.010)m/s^2
+01-17 23:22:32.418 13603 14082 V IMU     : dt=0.020s accel=(0.350 0.010 0.000)m/s^2
+01-17 23:22:32.433 13603 14082 V IMU     : dt=0.016s accel=(0.370 -0.020 0.000)m/s^2
+01-17 23:22:32.450 13603 14082 V IMU     : dt=0.017s accel=(0.380 0.000 0.010)m/s^2
+01-17 23:22:32.466 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:32.488 13603 14082 V IMU     : dt=0.022s accel=(0.350 0.000 0.000)m/s^2
+01-17 23:22:32.504 13603 14082 V IMU     : dt=0.016s accel=(0.380 0.010 0.000)m/s^2
+01-17 23:22:32.520 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.000 0.000)m/s^2
+01-17 23:22:32.537 13603 14082 V IMU     : dt=0.017s accel=(0.360 -0.010 0.050)m/s^2
+01-17 23:22:32.555 13603 14082 V IMU     : dt=0.017s accel=(0.360 -0.020 0.000)m/s^2
+01-17 23:22:32.570 13603 14082 V IMU     : dt=0.013s accel=(0.370 -0.010 0.000)m/s^2
+01-17 23:22:32.582 13603 14082 V IMU     : dt=0.015s accel=(0.380 0.010 0.020)m/s^2
+01-17 23:22:32.598 13603 14082 V IMU     : dt=0.016s accel=(0.380 -0.020 0.020)m/s^2
+01-17 23:22:32.618 13603 14082 V IMU     : dt=0.020s accel=(0.410 0.000 0.030)m/s^2
+01-17 23:22:32.631 13603 14139 W YuvRgbFrame.8791359632267: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:32.631 13603 14139 W YuvRgbFrame.8791359632267: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:32.636 13603 14082 V IMU     : dt=0.018s accel=(0.370 0.020 -0.020)m/s^2
+01-17 23:22:32.654 13603 14082 V IMU     : dt=0.018s accel=(0.370 -0.020 -0.030)m/s^2
+01-17 23:22:32.675 13603 14082 V IMU     : dt=0.016s accel=(0.370 0.000 0.040)m/s^2
+01-17 23:22:32.688 13603 14082 V IMU     : dt=0.017s accel=(0.340 0.010 0.000)m/s^2
+01-17 23:22:32.708 13603 14082 V IMU     : dt=0.021s accel=(0.360 0.000 0.030)m/s^2
+01-17 23:22:32.724 13603 14082 V IMU     : dt=0.016s accel=(0.370 -0.070 -0.010)m/s^2
+01-17 23:22:32.744 13603 14082 V IMU     : dt=0.015s accel=(0.340 0.010 -0.010)m/s^2
+01-17 23:22:32.759 13603 14082 V IMU     : dt=0.019s accel=(0.390 0.010 -0.030)m/s^2
+01-17 23:22:32.778 13603 14082 V IMU     : dt=0.017s accel=(0.370 0.000 0.010)m/s^2
+01-17 23:22:32.790 13603 14082 V IMU     : dt=0.015s accel=(0.360 -0.010 0.030)m/s^2
+01-17 23:22:32.806 13603 14082 V IMU     : dt=0.016s accel=(0.350 -0.040 0.000)m/s^2
+01-17 23:22:32.826 13603 14082 V IMU     : dt=0.019s accel=(0.350 -0.010 0.000)m/s^2
+01-17 23:22:32.842 13603 14082 V IMU     : dt=0.017s accel=(0.360 0.020 0.000)m/s^2
+01-17 23:22:32.861 13603 14082 V IMU     : dt=0.018s accel=(0.370 0.000 0.000)m/s^2
+01-17 23:22:32.876 13603 14082 V IMU     : dt=0.015s accel=(0.380 0.000 0.030)m/s^2
+01-17 23:22:32.901 13603 14082 V IMU     : dt=0.024s accel=(0.390 -0.010 0.060)m/s^2
+01-17 23:22:32.929 13603 14082 V IMU     : dt=0.029s accel=(0.360 0.000 -0.020)m/s^2
+01-17 23:22:32.967 13603 14082 V IMU     : dt=0.038s accel=(0.370 0.030 0.040)m/s^2
+01-17 23:22:32.981 13603 14082 V IMU     : dt=0.014s accel=(-0.200 4.820 3.420)m/s^2
+01-17 23:22:32.998 13603 14082 V IMU     : dt=0.018s accel=(0.840 5.410 1.300)m/s^2
+01-17 23:22:33.049 13603 14082 V IMU     : dt=0.051s accel=(0.250 2.400 0.290)m/s^2
+01-17 23:22:33.079 13603 14083 I System.out: here
+01-17 23:22:33.085 13603 14082 V IMU     : dt=0.031s accel=(1.020 2.980 0.320)m/s^2
+01-17 23:22:33.102 13603 14083 I System.out: here
+01-17 23:22:33.110 13603 14082 V IMU     : dt=0.024s accel=(-3.160 1.580 1.340)m/s^2
+01-17 23:22:33.124 13603 14082 V IMU     : dt=0.019s accel=(3.170 1.840 1.820)m/s^2
+01-17 23:22:33.129 13603 14083 I System.out: here
+01-17 23:22:33.152 13603 14083 I System.out: here
+01-17 23:22:33.161 13603 14082 V IMU     : dt=0.037s accel=(1.750 3.440 0.800)m/s^2
+01-17 23:22:33.184 13603 14083 I System.out: here
+01-17 23:22:33.189 13603 14082 V IMU     : dt=0.027s accel=(-2.140 -2.130 -2.420)m/s^2
+01-17 23:22:33.204 13603 14083 I System.out: here
+01-17 23:22:33.208 13603 14082 V IMU     : dt=0.019s accel=(3.310 -1.060 -1.630)m/s^2
+01-17 23:22:33.230 13603 14082 V IMU     : dt=0.024s accel=(-2.660 -2.190 0.190)m/s^2
+01-17 23:22:33.249 13603 14082 V IMU     : dt=0.018s accel=(-2.900 -1.270 1.750)m/s^2
+01-17 23:22:33.267 13603 14082 V IMU     : dt=0.018s accel=(3.930 1.800 2.800)m/s^2
+01-17 23:22:33.288 13603 14082 V IMU     : dt=0.019s accel=(-1.350 -5.590 -4.760)m/s^2
+01-17 23:22:33.314 13603 14082 V IMU     : dt=0.029s accel=(2.030 -5.010 0.850)m/s^2
+01-17 23:22:33.331 13603 14082 V IMU     : dt=0.016s accel=(0.150 -4.370 -1.520)m/s^2
+01-17 23:22:33.367 13603 14082 V IMU     : dt=0.034s accel=(0.370 -2.090 1.490)m/s^2
+01-17 23:22:33.385 13603 14082 V IMU     : dt=0.021s accel=(0.090 -2.560 0.260)m/s^2
+01-17 23:22:33.389 13603 14140 W YuvRgbFrame.8791869410703: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:33.389 13603 14140 W YuvRgbFrame.8791869410703: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:33.401 13603 14082 V IMU     : dt=0.017s accel=(0.690 -1.560 -0.450)m/s^2
+01-17 23:22:33.418 13603 14082 V IMU     : dt=0.017s accel=(0.440 -0.340 -0.080)m/s^2
+01-17 23:22:33.437 13603 14082 V IMU     : dt=0.019s accel=(0.510 0.520 0.410)m/s^2
+01-17 23:22:33.453 13603 14082 V IMU     : dt=0.016s accel=(0.330 0.190 -0.620)m/s^2
+01-17 23:22:33.469 13603 14082 V IMU     : dt=0.016s accel=(0.390 0.440 0.380)m/s^2
+01-17 23:22:33.485 13603 14082 V IMU     : dt=0.016s accel=(0.320 0.590 -0.280)m/s^2
+01-17 23:22:33.504 13603 14082 V IMU     : dt=0.018s accel=(0.440 0.030 -0.360)m/s^2
+01-17 23:22:33.522 13603 14082 V IMU     : dt=0.018s accel=(0.200 -0.160 -0.090)m/s^2
+01-17 23:22:33.538 13603 14082 V IMU     : dt=0.015s accel=(0.480 -0.060 -0.040)m/s^2
+01-17 23:22:33.559 13603 14082 V IMU     : dt=0.022s accel=(0.330 -0.030 0.060)m/s^2
+01-17 23:22:33.575 13603 14082 V IMU     : dt=0.016s accel=(0.270 -0.010 0.020)m/s^2
+01-17 23:22:33.637 13603 14082 V IMU     : dt=0.026s accel=(0.350 -0.200 -0.040)m/s^2
+01-17 23:22:33.649 13603 14082 V IMU     : dt=0.048s accel=(0.360 0.200 0.250)m/s^2
+01-17 23:22:33.666 13603 14082 V IMU     : dt=0.017s accel=(0.390 -0.010 0.010)m/s^2
+01-17 23:22:33.683 13603 14082 V IMU     : dt=0.018s accel=(0.310 -0.160 -0.100)m/s^2
+01-17 23:22:33.700 13603 14082 V IMU     : dt=0.017s accel=(0.320 0.000 0.060)m/s^2
+01-17 23:22:33.728 13603 14082 V IMU     : dt=0.027s accel=(0.350 -0.140 -0.100)m/s^2
+01-17 23:22:33.746 13603 14082 V IMU     : dt=0.019s accel=(0.350 -0.310 -0.200)m/s^2
+01-17 23:22:33.775 13603 14082 V IMU     : dt=0.017s accel=(0.350 -0.320 -0.020)m/s^2
+01-17 23:22:33.792 13603 14082 V IMU     : dt=0.028s accel=(0.320 0.130 0.440)m/s^2
+01-17 23:22:33.811 13603 14082 V IMU     : dt=0.016s accel=(0.370 -0.050 -0.020)m/s^2
+01-17 23:22:33.822 13603 14082 V IMU     : dt=0.014s accel=(0.420 -0.250 -0.220)m/s^2
+01-17 23:22:33.838 13603 14082 V IMU     : dt=0.016s accel=(0.320 -0.150 0.010)m/s^2
+01-17 23:22:33.856 13603 13615 I zygote  : NativeAlloc concurrent copying GC freed 64457(2MB) AllocSpace objects, 47(22MB) LOS objects, 46% free, 27MB/51MB, paused 2.109ms total 809.752ms
+01-17 23:22:33.871 13603 14082 V IMU     : dt=0.033s accel=(0.340 0.600 0.080)m/s^2
+01-17 23:22:33.890 13603 14082 V IMU     : dt=0.018s accel=(0.420 -0.060 -0.160)m/s^2
+01-17 23:22:33.906 13603 14082 V IMU     : dt=0.013s accel=(0.370 -0.100 -0.080)m/s^2
+01-17 23:22:33.929 13603 14082 V IMU     : dt=0.025s accel=(0.430 -0.240 -0.110)m/s^2
+01-17 23:22:33.930 13603 14139 W YuvRgbFrame.8792351563251: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:33.931 13603 14139 I chatty  : uid=10080(com.qualcomm.ftcrobotcontroller) pool-49-thread- identical 5 lines
+01-17 23:22:33.931 13603 14139 W YuvRgbFrame.8792351563251: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:33.948 13603 14082 V IMU     : dt=0.020s accel=(0.270 -0.180 0.130)m/s^2
+01-17 23:22:33.968 13603 14082 V IMU     : dt=0.021s accel=(0.470 -0.210 0.000)m/s^2
+01-17 23:22:33.981 13603 14082 V IMU     : dt=0.013s accel=(0.430 -0.020 -0.170)m/s^2
+01-17 23:22:33.998 13603 14082 V IMU     : dt=0.016s accel=(0.420 0.270 0.430)m/s^2
+01-17 23:22:34.015 13603 14082 V IMU     : dt=0.017s accel=(0.220 0.390 0.130)m/s^2
+01-17 23:22:34.032 13603 14082 V IMU     : dt=0.017s accel=(0.660 0.430 0.130)m/s^2
+01-17 23:22:34.048 13603 14082 V IMU     : dt=0.016s accel=(0.250 0.190 0.420)m/s^2
+01-17 23:22:34.064 13603 14082 V IMU     : dt=0.016s accel=(0.500 0.200 0.150)m/s^2
+01-17 23:22:34.081 13603 14082 V IMU     : dt=0.017s accel=(0.330 -0.010 -0.400)m/s^2
+01-17 23:22:34.097 13603 14082 V IMU     : dt=0.016s accel=(0.490 0.110 0.000)m/s^2
+01-17 23:22:34.113 13603 14082 V IMU     : dt=0.016s accel=(0.260 -0.210 0.080)m/s^2
+01-17 23:22:34.129 13603 14082 V IMU     : dt=0.016s accel=(0.310 -0.090 0.010)m/s^2
+01-17 23:22:34.162 13603 14082 V IMU     : dt=0.033s accel=(0.300 -0.020 0.110)m/s^2
+01-17 23:22:34.178 13603 14082 V IMU     : dt=0.016s accel=(0.360 -0.040 -0.080)m/s^2
+01-17 23:22:34.187 13603 14140 W YuvRgbFrame.8792781623867: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:34.187 13603 14140 I chatty  : uid=10080(com.qualcomm.ftcrobotcontroller) pool-49-thread- identical 4 lines
+01-17 23:22:34.187 13603 14140 W YuvRgbFrame.8792781623867: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:34.193 13603 14082 V IMU     : dt=0.015s accel=(0.330 0.020 0.090)m/s^2
+01-17 23:22:34.208 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.100 0.020)m/s^2
+01-17 23:22:34.229 13603 14082 V IMU     : dt=0.020s accel=(0.350 0.060 0.060)m/s^2
+01-17 23:22:34.243 13603 14082 V IMU     : dt=0.014s accel=(0.380 0.010 -0.060)m/s^2
+01-17 23:22:34.269 13603 14082 V IMU     : dt=0.026s accel=(0.350 -0.030 0.040)m/s^2
+01-17 23:22:34.287 13603 14082 V IMU     : dt=0.018s accel=(0.350 -0.030 0.040)m/s^2
+01-17 23:22:34.307 13603 14082 V IMU     : dt=0.020s accel=(0.360 0.000 -0.040)m/s^2
+01-17 23:22:34.325 13603 14082 V IMU     : dt=0.018s accel=(0.190 -0.210 0.030)m/s^2
+01-17 23:22:34.348 13603 14082 V IMU     : dt=0.023s accel=(0.030 -2.060 -4.020)m/s^2
+01-17 23:22:34.384 13603 14082 V IMU     : dt=0.036s accel=(-0.540 -0.650 -4.240)m/s^2
+01-17 23:22:34.401 13603 14082 V IMU     : dt=0.017s accel=(-0.740 -3.530 0.570)m/s^2
+01-17 23:22:34.446 13603 14082 V IMU     : dt=0.045s accel=(3.040 -1.740 1.060)m/s^2
+01-17 23:22:34.462 13603 14083 I System.out: here
+01-17 23:22:34.464 13603 14082 V IMU     : dt=0.017s accel=(0.230 -4.130 1.520)m/s^2
+01-17 23:22:34.483 13603 14083 I System.out: here
+01-17 23:22:34.484 13603 14082 V IMU     : dt=0.021s accel=(0.370 -3.640 -3.180)m/s^2
+01-17 23:22:34.503 13603 14083 I System.out: here
+01-17 23:22:34.510 13603 14082 V IMU     : dt=0.020s accel=(0.680 -2.790 -1.350)m/s^2
+01-17 23:22:34.531 13603 14083 I System.out: here
+01-17 23:22:34.537 13603 14082 V IMU     : dt=0.031s accel=(-0.710 -1.460 1.110)m/s^2
+01-17 23:22:34.556 13603 14082 V IMU     : dt=0.017s accel=(0.670 -1.520 -0.700)m/s^2
+01-17 23:22:34.563 13603 14083 I System.out: here
+01-17 23:22:34.577 13603 14082 V IMU     : dt=0.024s accel=(-0.060 -0.790 -0.250)m/s^2
+01-17 23:22:34.591 13603 14083 I System.out: here
+01-17 23:22:34.604 13603 14082 V IMU     : dt=0.027s accel=(1.910 -0.970 -1.090)m/s^2
+01-17 23:22:34.612 13603 14083 I System.out: here
+01-17 23:22:34.627 13603 14082 V IMU     : dt=0.021s accel=(-1.710 -0.820 0.670)m/s^2
+01-17 23:22:34.631 13603 14083 I System.out: here
+01-17 23:22:34.652 13603 14082 V IMU     : dt=0.027s accel=(1.050 -0.170 3.790)m/s^2
+01-17 23:22:34.663 13603 14083 I System.out: here
+01-17 23:22:34.673 13603 14082 V IMU     : dt=0.020s accel=(-3.470 -0.940 3.580)m/s^2
+01-17 23:22:34.681 13603 14083 I System.out: here
+01-17 23:22:34.709 13603 14082 V IMU     : dt=0.025s accel=(-1.880 0.220 -2.490)m/s^2
+01-17 23:22:34.717 13603 14083 I System.out: here
+01-17 23:22:34.724 13603 14082 V IMU     : dt=0.027s accel=(2.420 0.070 -3.540)m/s^2
+01-17 23:22:34.728 13603 14083 I System.out: here
+01-17 23:22:34.740 13603 14083 I System.out: here
+01-17 23:22:34.742 13603 14082 V IMU     : dt=0.018s accel=(-2.020 0.100 0.410)m/s^2
+01-17 23:22:34.751 13603 14083 I System.out: here
+01-17 23:22:34.752 13603 14139 W YuvRgbFrame.8793181125730: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:34.752 13603 14139 I chatty  : uid=10080(com.qualcomm.ftcrobotcontroller) pool-49-thread- identical 4 lines
+01-17 23:22:34.752 13603 14139 W YuvRgbFrame.8793181125730: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:34.760 13603 14082 V IMU     : dt=0.018s accel=(4.200 0.370 -3.100)m/s^2
+01-17 23:22:34.765 13603 14083 I System.out: here
+01-17 23:22:34.786 13603 14083 I System.out: here
+01-17 23:22:34.787 13603 14082 V IMU     : dt=0.027s accel=(-3.180 -1.520 2.110)m/s^2
+01-17 23:22:34.814 13603 14082 V IMU     : dt=0.027s accel=(2.660 0.800 -2.550)m/s^2
+01-17 23:22:34.819 13603 14083 I System.out: here
+01-17 23:22:34.837 13603 14082 V IMU     : dt=0.023s accel=(4.470 0.880 -2.700)m/s^2
+01-17 23:22:34.841 13603 14083 I System.out: here
+01-17 23:22:34.856 13603 14083 I System.out: here
+01-17 23:22:34.858 13603 14082 V IMU     : dt=0.021s accel=(-3.030 -0.610 0.850)m/s^2
+01-17 23:22:34.874 13603 14082 V IMU     : dt=0.016s accel=(4.550 0.840 -1.640)m/s^2
+01-17 23:22:34.880 13603 14083 I System.out: here
+01-17 23:22:34.896 13603 14082 V IMU     : dt=0.021s accel=(-0.770 -1.710 0.310)m/s^2
+01-17 23:22:34.901 13603 14083 I System.out: here
+01-17 23:22:34.916 13603 14082 V IMU     : dt=0.021s accel=(-1.990 0.600 1.220)m/s^2
+01-17 23:22:34.936 13603 14083 I System.out: here
+01-17 23:22:34.946 13603 14082 V IMU     : dt=0.018s accel=(4.670 1.310 1.350)m/s^2
+01-17 23:22:34.951 13603 14083 I System.out: here
+01-17 23:22:34.967 13603 14083 I System.out: here
+01-17 23:22:34.980 13603 14082 V IMU     : dt=0.045s accel=(-2.370 2.480 -0.530)m/s^2
+01-17 23:22:35.013 13603 14082 V IMU     : dt=0.033s accel=(0.730 5.280 3.490)m/s^2
+01-17 23:22:35.028 13603 14082 V IMU     : dt=0.016s accel=(1.510 5.850 0.710)m/s^2
+01-17 23:22:35.045 13603 14082 V IMU     : dt=0.017s accel=(2.760 3.040 -0.330)m/s^2
+01-17 23:22:35.061 13603 14082 V IMU     : dt=0.016s accel=(-0.140 2.550 -0.930)m/s^2
+01-17 23:22:35.078 13603 14082 V IMU     : dt=0.017s accel=(-1.190 0.840 0.140)m/s^2
+01-17 23:22:35.095 13603 14082 V IMU     : dt=0.016s accel=(0.340 0.890 -0.660)m/s^2
+01-17 23:22:35.121 13603 14082 V IMU     : dt=0.027s accel=(0.360 2.130 -2.100)m/s^2
+01-17 23:22:35.144 13603 14082 V IMU     : dt=0.018s accel=(0.250 2.250 -0.190)m/s^2
+01-17 23:22:35.146 13603 14140 W YuvRgbFrame.8793553932694: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:35.148 13603 14140 I chatty  : uid=10080(com.qualcomm.ftcrobotcontroller) pool-49-thread- identical 2 lines
+01-17 23:22:35.148 13603 14140 W YuvRgbFrame.8793553932694: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:35.157 13603 14082 V IMU     : dt=0.018s accel=(0.070 2.210 -1.570)m/s^2
+01-17 23:22:35.179 13603 14082 V IMU     : dt=0.022s accel=(1.110 0.760 -0.550)m/s^2
+01-17 23:22:35.203 13603 14082 V IMU     : dt=0.016s accel=(-0.530 -0.080 -0.540)m/s^2
+01-17 23:22:35.218 13603 14082 V IMU     : dt=0.022s accel=(0.730 0.190 0.970)m/s^2
+01-17 23:22:35.232 13603 14082 V IMU     : dt=0.015s accel=(0.540 0.450 -0.290)m/s^2
+01-17 23:22:35.253 13603 14082 V IMU     : dt=0.021s accel=(0.090 -0.220 0.050)m/s^2
+01-17 23:22:35.272 13603 14082 V IMU     : dt=0.019s accel=(0.160 0.270 -0.140)m/s^2
+01-17 23:22:35.299 13603 14082 V IMU     : dt=0.025s accel=(0.680 0.140 0.490)m/s^2
+01-17 23:22:35.314 13603 14082 V IMU     : dt=0.016s accel=(-0.140 -0.450 0.170)m/s^2
+01-17 23:22:35.330 13603 14082 V IMU     : dt=0.017s accel=(0.340 -0.190 0.240)m/s^2
+01-17 23:22:35.352 13603 14082 V IMU     : dt=0.021s accel=(0.380 -0.470 -1.270)m/s^2
+01-17 23:22:35.368 13603 14139 W YuvRgbFrame.8793944082316: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:35.368 13603 14139 I chatty  : uid=10080(com.qualcomm.ftcrobotcontroller) pool-49-thread- identical 1 line
+01-17 23:22:35.368 13603 14139 W YuvRgbFrame.8793944082316: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:35.378 13603 14082 V IMU     : dt=0.019s accel=(0.760 -0.290 -0.830)m/s^2
+01-17 23:22:35.426 13603 14082 V IMU     : dt=0.044s accel=(0.600 -0.310 -0.060)m/s^2
+01-17 23:22:35.441 13603 14082 V IMU     : dt=0.023s accel=(0.650 0.010 0.100)m/s^2
+01-17 23:22:35.450 13603 14139 I native  : Registering the position of 241591222 at 19.36,114.76,237.67,153.10
+01-17 23:22:35.452 13603 14139 I native  : Registering the position of 241591222 at 19.36,114.76,237.67,153.10 at time 8793944082316
+01-17 23:22:35.465 13603 14082 V IMU     : dt=0.025s accel=(-0.050 -0.330 0.190)m/s^2
+01-17 23:22:35.473 13603 14082 V IMU     : dt=0.011s accel=(0.490 0.320 -0.010)m/s^2
+01-17 23:22:35.496 13603 14082 V IMU     : dt=0.019s accel=(0.300 -0.440 -0.350)m/s^2
+01-17 23:22:35.513 13603 14082 V IMU     : dt=0.021s accel=(0.360 -0.380 0.330)m/s^2
+01-17 23:22:35.531 13603 14082 V IMU     : dt=0.017s accel=(0.120 -0.120 0.370)m/s^2
+01-17 23:22:35.544 13603 14082 V IMU     : dt=0.014s accel=(0.380 -0.080 -0.090)m/s^2
+01-17 23:22:35.564 13603 14082 V IMU     : dt=0.020s accel=(0.330 0.290 0.030)m/s^2
+01-17 23:22:35.580 13603 14082 V IMU     : dt=0.015s accel=(0.290 0.510 0.110)m/s^2
+01-17 23:22:35.596 13603 14082 V IMU     : dt=0.016s accel=(0.330 0.360 0.280)m/s^2
+01-17 23:22:35.621 13603 14082 V IMU     : dt=0.025s accel=(0.350 -0.890 0.010)m/s^2
+01-17 23:22:35.640 13603 14082 V IMU     : dt=0.019s accel=(0.120 0.100 0.270)m/s^2
+01-17 23:22:35.667 13603 14082 V IMU     : dt=0.028s accel=(0.530 0.360 0.190)m/s^2
+01-17 23:22:35.686 13603 14082 V IMU     : dt=0.018s accel=(0.370 0.000 0.180)m/s^2
+01-17 23:22:35.706 13603 14082 V IMU     : dt=0.019s accel=(0.340 0.280 0.330)m/s^2
+01-17 23:22:35.737 13603 14082 V IMU     : dt=0.016s accel=(0.360 0.390 0.040)m/s^2
+01-17 23:22:35.743 13603 14082 V IMU     : dt=0.023s accel=(0.590 -1.020 -0.460)m/s^2
+01-17 23:22:35.764 13603 14082 V IMU     : dt=0.020s accel=(0.340 -0.240 0.460)m/s^2
+01-17 23:22:35.778 13603 14082 V IMU     : dt=0.015s accel=(0.150 -0.070 0.160)m/s^2
+01-17 23:22:35.797 13603 14082 V IMU     : dt=0.017s accel=(0.380 0.270 -0.100)m/s^2
+01-17 23:22:35.820 13603 14082 V IMU     : dt=0.025s accel=(0.420 0.480 0.330)m/s^2
+01-17 23:22:35.850 13603 14082 V IMU     : dt=0.030s accel=(-0.190 -0.750 -0.740)m/s^2
+01-17 23:22:35.854 13603 14140 W YuvRgbFrame.8794433115959: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:35.854 13603 14140 I chatty  : uid=10080(com.qualcomm.ftcrobotcontroller) pool-49-thread- identical 2 lines
+01-17 23:22:35.854 13603 14140 W YuvRgbFrame.8794433115959: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:35.871 13603 14082 V IMU     : dt=0.021s accel=(-0.200 -0.150 -0.180)m/s^2
+01-17 23:22:35.889 13603 14082 V IMU     : dt=0.018s accel=(0.120 -0.120 0.250)m/s^2
+01-17 23:22:35.907 13603 14082 V IMU     : dt=0.018s accel=(0.370 0.140 0.190)m/s^2
+01-17 23:22:35.915 13603 13615 I zygote  : NativeAlloc concurrent copying GC freed 86514(2MB) AllocSpace objects, 55(27MB) LOS objects, 49% free, 24MB/48MB, paused 2.100ms total 657.267ms
+01-17 23:22:35.925 13603 14082 V IMU     : dt=0.017s accel=(0.300 0.280 0.120)m/s^2
+01-17 23:22:35.951 13603 14082 V IMU     : dt=0.026s accel=(0.420 -0.160 -0.240)m/s^2
+01-17 23:22:35.968 13603 14082 V IMU     : dt=0.018s accel=(0.260 -0.160 -0.050)m/s^2
+01-17 23:22:36.004 13603 14082 V IMU     : dt=0.036s accel=(0.350 -0.120 0.170)m/s^2
+01-17 23:22:36.025 13603 14082 V IMU     : dt=0.021s accel=(0.470 0.020 -0.060)m/s^2
+01-17 23:22:36.058 13603 14082 V IMU     : dt=0.032s accel=(0.350 0.000 0.090)m/s^2
+01-17 23:22:36.089 13603 14082 V IMU     : dt=0.032s accel=(0.600 -0.440 0.190)m/s^2
+01-17 23:22:36.112 13603 14082 V IMU     : dt=0.022s accel=(-4.120 -6.430 -3.290)m/s^2
+01-17 23:22:36.128 13603 14082 V IMU     : dt=0.016s accel=(-1.560 -6.570 -5.690)m/s^2
+01-17 23:22:36.149 13603 14082 V IMU     : dt=0.021s accel=(5.440 0.950 -2.490)m/s^2
+01-17 23:22:36.181 13603 14082 V IMU     : dt=0.032s accel=(-0.350 1.330 -1.340)m/s^2
+01-17 23:22:36.212 13603 14139 I native  : Registering the position of 146675895 at 22.78,122.36,230.19,156.97
+01-17 23:22:36.212 13603 14139 I native  : Registering the position of 146675895 at 22.78,122.36,230.19,156.97 at time 8794766482086
+01-17 23:22:36.221 13603 14082 V IMU     : dt=0.036s accel=(1.710 0.180 1.250)m/s^2
+01-17 23:22:36.222 13603 14139 I native  : Registering the position of 151156772 at -2.98,121.24,152.81,154.80
+01-17 23:22:36.222 13603 14139 I native  : Registering the position of 151156772 at -2.98,121.24,152.81,154.80 at time 8794766482086
+01-17 23:22:36.223 13603 14139 I native  : Registering the position of 109072269 at 60.26,129.19,221.46,155.61
+01-17 23:22:36.223 13603 14139 I native  : Registering the position of 109072269 at 60.26,129.19,221.46,155.61 at time 8794766482086
+01-17 23:22:36.224 13603 14139 I native  : Registering the position of 15533378 at -3.60,123.96,70.58,153.70
+01-17 23:22:36.224 13603 14139 I native  : Registering the position of 15533378 at -3.60,123.96,70.58,153.70 at time 8794766482086
+01-17 23:22:36.225 13603 14139 I native  : Registering the position of 261196115 at 105.03,124.19,246.43,154.43
+01-17 23:22:36.225 13603 14139 I native  : Registering the position of 261196115 at 105.03,124.19,246.43,154.43 at time 8794766482086
+01-17 23:22:36.226 13603 14139 I native  : Registering the position of 33616528 at 128.99,131.35,237.03,154.36
+01-17 23:22:36.226 13603 14139 I native  : Registering the position of 33616528 at 128.99,131.35,237.03,154.36 at time 8794766482086
+01-17 23:22:36.244 13603 14082 V IMU     : dt=0.027s accel=(2.380 0.550 0.680)m/s^2
+01-17 23:22:36.277 13603 14082 V IMU     : dt=0.032s accel=(-1.580 -2.450 2.900)m/s^2
+01-17 23:22:36.296 13603 14082 V IMU     : dt=0.019s accel=(0.790 0.450 1.170)m/s^2
+01-17 23:22:36.316 13603 14082 V IMU     : dt=0.021s accel=(1.070 -0.540 0.530)m/s^2
+01-17 23:22:36.343 13603 14082 V IMU     : dt=0.027s accel=(-1.390 -0.590 -0.630)m/s^2
+01-17 23:22:36.377 13603 14082 V IMU     : dt=0.034s accel=(0.170 -0.770 1.150)m/s^2
+01-17 23:22:36.397 13603 14082 V IMU     : dt=0.021s accel=(-0.150 -0.590 1.170)m/s^2
+01-17 23:22:36.414 13603 14082 V IMU     : dt=0.016s accel=(-0.900 -0.230 -2.090)m/s^2
+01-17 23:22:36.434 13603 14082 V IMU     : dt=0.020s accel=(-0.440 -0.770 0.130)m/s^2
+01-17 23:22:36.466 13603 14082 V IMU     : dt=0.029s accel=(3.880 0.170 -1.510)m/s^2
+01-17 23:22:36.489 13603 14082 V IMU     : dt=0.026s accel=(1.060 -0.330 0.110)m/s^2
+01-17 23:22:36.516 13603 14082 V IMU     : dt=0.027s accel=(5.950 1.490 -1.430)m/s^2
+01-17 23:22:36.536 13603 14082 V IMU     : dt=0.018s accel=(-3.980 -1.110 -0.390)m/s^2
+01-17 23:22:36.564 13603 14082 V IMU     : dt=0.030s accel=(0.270 -0.230 -1.630)m/s^2
+01-17 23:22:36.581 13603 14082 V IMU     : dt=0.017s accel=(-0.320 -0.850 -1.560)m/s^2
+01-17 23:22:36.598 13603 14082 V IMU     : dt=0.017s accel=(-4.940 -2.530 -0.020)m/s^2
+01-17 23:22:36.612 13603 14140 I native  : Registering the position of 263149449 at 26.57,122.27,230.46,156.29
+01-17 23:22:36.612 13603 14140 I native  : Registering the position of 263149449 at 26.57,122.27,230.46,156.29 at time 8795120911496
+01-17 23:22:36.613 13603 14140 I native  : Registering the position of 122303374 at 36.35,129.45,192.14,155.87
+01-17 23:22:36.613 13603 14140 I native  : Registering the position of 122303374 at 36.35,129.45,192.14,155.87 at time 8795120911496
+01-17 23:22:36.614 13603 14140 I native  : Registering the position of 69298095 at 92.87,128.89,251.34,154.86
+01-17 23:22:36.614 13603 14140 I native  : Registering the position of 69298095 at 92.87,128.89,251.34,154.86 at time 8795120911496
+01-17 23:22:36.618 13603 14140 I native  : Registering the position of 2795452 at 37.35,118.62,151.03,152.45
+01-17 23:22:36.618 13603 14140 I native  : Registering the position of 2795452 at 37.35,118.62,151.03,152.45 at time 8795120911496
+01-17 23:22:36.620 13603 14082 V IMU     : dt=0.022s accel=(4.820 0.730 -4.550)m/s^2
+01-17 23:22:36.652 13603 14082 V IMU     : dt=0.032s accel=(-2.680 -1.190 2.970)m/s^2
+01-17 23:22:36.686 13603 14082 V IMU     : dt=0.034s accel=(1.990 0.240 3.440)m/s^2
+01-17 23:22:36.706 13603 14082 V IMU     : dt=0.020s accel=(-4.640 -1.530 2.970)m/s^2
+01-17 23:22:36.741 13603 14082 V IMU     : dt=0.034s accel=(4.840 1.220 -4.170)m/s^2
+01-17 23:22:36.760 13603 14082 V IMU     : dt=0.020s accel=(-3.420 -2.350 0.630)m/s^2
+01-17 23:22:36.794 13603 14082 V IMU     : dt=0.034s accel=(0.810 -0.490 2.190)m/s^2
+01-17 23:22:36.815 13603 14082 V IMU     : dt=0.021s accel=(-1.920 -1.430 1.380)m/s^2
+01-17 23:22:36.827 13603 14082 V IMU     : dt=0.012s accel=(-1.800 0.140 -0.020)m/s^2
+01-17 23:22:36.859 13603 14082 V IMU     : dt=0.032s accel=(3.450 1.000 -3.130)m/s^2
+01-17 23:22:36.882 13603 14082 V IMU     : dt=0.023s accel=(-3.050 -2.710 3.690)m/s^2
+01-17 23:22:36.906 13603 14082 V IMU     : dt=0.019s accel=(2.960 -0.590 -0.140)m/s^2
+01-17 23:22:36.940 13603 14082 V IMU     : dt=0.039s accel=(2.890 -0.280 -0.760)m/s^2
+01-17 23:22:36.979 13603 14082 V IMU     : dt=0.029s accel=(0.570 -0.440 -3.120)m/s^2
+01-17 23:22:36.997 13603 14082 V IMU     : dt=0.028s accel=(-0.430 -0.280 2.460)m/s^2
+01-17 23:22:37.013 13603 14082 V IMU     : dt=0.016s accel=(3.080 0.160 -0.240)m/s^2
+01-17 23:22:37.036 13603 14082 V IMU     : dt=0.023s accel=(-3.700 0.410 -0.630)m/s^2
+01-17 23:22:37.058 13603 14082 V IMU     : dt=0.022s accel=(1.250 0.580 -2.420)m/s^2
+01-17 23:22:37.079 13603 14082 V IMU     : dt=0.021s accel=(-1.580 -1.440 1.760)m/s^2
+01-17 23:22:37.082 13603 13775 D Uvc     : [device.cpp:1756] uvc_process_streaming_status()...
+01-17 23:22:37.082 13603 13775 D Uvc     : [device.cpp:1788] strm status org=1 error event=0x07 value=0x82 len=4.
+01-17 23:22:37.082 13603 13775 D Uvc     : [device.cpp:1756] ...uvc_process_streaming_status()
+01-17 23:22:37.099 13603 14082 V IMU     : dt=0.020s accel=(0.840 0.980 2.180)m/s^2
+01-17 23:22:37.115 13603 14082 V IMU     : dt=0.016s accel=(2.320 0.280 -3.490)m/s^2
+01-17 23:22:37.139 13603 14082 V IMU     : dt=0.024s accel=(-3.210 -1.210 -1.110)m/s^2
+01-17 23:22:37.158 13603 14082 V IMU     : dt=0.019s accel=(3.320 1.840 0.030)m/s^2
+01-17 23:22:37.179 13603 14082 V IMU     : dt=0.021s accel=(1.900 -0.540 -1.280)m/s^2
+01-17 23:22:37.196 13603 14082 V IMU     : dt=0.017s accel=(-0.330 0.990 3.100)m/s^2
+01-17 23:22:37.225 13603 14082 V IMU     : dt=0.029s accel=(1.950 -0.720 -2.190)m/s^2
+01-17 23:22:37.239 13603 13775 D Uvc     : [device.cpp:1756] uvc_process_streaming_status()...
+01-17 23:22:37.239 13603 13775 D Uvc     : [device.cpp:1788] strm status org=1 error event=0x07 value=0x83 len=4.
+01-17 23:22:37.239 13603 13775 D Uvc     : [device.cpp:1756] ...uvc_process_streaming_status()
+01-17 23:22:37.243 13603 14082 V IMU     : dt=0.018s accel=(-0.850 0.060 2.020)m/s^2
+01-17 23:22:37.277 13603 14082 V IMU     : dt=0.023s accel=(2.040 1.850 2.030)m/s^2
+01-17 23:22:37.298 13603 14082 V IMU     : dt=0.032s accel=(-2.440 -0.560 0.210)m/s^2
+01-17 23:22:37.319 13603 14082 V IMU     : dt=0.021s accel=(2.690 0.480 -0.160)m/s^2
+01-17 23:22:37.350 13603 13775 D Uvc     : [device.cpp:1756] uvc_process_streaming_status()...
+01-17 23:22:37.350 13603 13775 D Uvc     : [device.cpp:1788] strm status org=1 error event=0x07 value=0x82 len=4.
+01-17 23:22:37.350 13603 13775 D Uvc     : [device.cpp:1756] ...uvc_process_streaming_status()
+01-17 23:22:37.355 13603 14082 V IMU     : dt=0.036s accel=(-2.260 0.060 -0.150)m/s^2
+01-17 23:22:37.358 13603 14139 W YuvRgbFrame.8795507147264: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:37.358 13603 14139 I chatty  : uid=10080(com.qualcomm.ftcrobotcontroller) pool-49-thread- identical 1 line
+01-17 23:22:37.358 13603 14139 W YuvRgbFrame.8795507147264: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:37.372 13603 14139 I native  : Registering the position of 145548101 at 64.21,116.93,282.53,153.99
+01-17 23:22:37.372 13603 14139 I native  : Registering the position of 145548101 at 64.21,116.93,282.53,153.99 at time 8795507147264
+01-17 23:22:37.377 13603 14139 I native  : Registering the position of 188349082 at 60.29,129.37,224.28,154.90
+01-17 23:22:37.377 13603 14139 I native  : Registering the position of 188349082 at 60.29,129.37,224.28,154.90 at time 8795507147264
+01-17 23:22:37.378 13603 14139 I native  : Registering the position of 254201803 at 113.79,129.19,272.26,155.61
+01-17 23:22:37.379 13603 14139 I native  : Registering the position of 254201803 at 113.79,129.19,272.26,155.61 at time 8795507147264
+01-17 23:22:37.419 13603 14082 V IMU     : dt=0.061s accel=(1.610 0.160 -2.090)m/s^2
+01-17 23:22:37.447 13603 14082 V IMU     : dt=0.031s accel=(-1.830 -0.710 1.240)m/s^2
+01-17 23:22:37.497 13603 14082 V IMU     : dt=0.048s accel=(2.170 0.940 0.700)m/s^2
+01-17 23:22:37.513 13603 14140 W YuvRgbFrame.8795842549172: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:37.513 13603 14140 W YuvRgbFrame.8795842549172: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:37.522 13603 14082 V IMU     : dt=0.027s accel=(1.180 0.840 1.090)m/s^2
+01-17 23:22:37.528 13603 14140 I native  : Registering the position of 148407208 at 75.18,117.94,275.62,153.75
+01-17 23:22:37.528 13603 14140 I native  : Registering the position of 148407208 at 75.18,117.94,275.62,153.75 at time 8795842549172
+01-17 23:22:37.529 13603 14140 I native  : Registering the position of 138243777 at 88.65,129.15,249.86,155.12
+01-17 23:22:37.529 13603 14140 I native  : Registering the position of 138243777 at 88.65,129.15,249.86,155.12 at time 8795842549172
+01-17 23:22:37.574 13603 14082 V IMU     : dt=0.050s accel=(0.950 0.500 0.880)m/s^2
+01-17 23:22:37.600 13603 14082 V IMU     : dt=0.028s accel=(-4.810 -0.110 -2.820)m/s^2
+01-17 23:22:37.644 13603 14082 V IMU     : dt=0.043s accel=(-0.390 2.930 -2.830)m/s^2
+01-17 23:22:37.677 13603 14082 V IMU     : dt=0.029s accel=(2.300 1.530 1.060)m/s^2
+01-17 23:22:37.687 13603 14082 V IMU     : dt=0.015s accel=(2.520 0.390 -0.080)m/s^2
+01-17 23:22:37.707 13603 14082 V IMU     : dt=0.018s accel=(-1.750 0.460 1.360)m/s^2
+01-17 23:22:37.736 13603 14082 V IMU     : dt=0.031s accel=(2.830 0.740 1.450)m/s^2
+01-17 23:22:37.766 13603 14082 V IMU     : dt=0.030s accel=(-1.170 0.340 0.060)m/s^2
+01-17 23:22:37.784 13603 14082 V IMU     : dt=0.017s accel=(3.380 0.360 -0.360)m/s^2
+01-17 23:22:37.829 13603 14082 V IMU     : dt=0.045s accel=(-0.010 -0.010 -0.010)m/s^2
+01-17 23:22:37.855 13603 14082 V IMU     : dt=0.027s accel=(-3.490 -0.620 0.560)m/s^2
+01-17 23:22:37.862 13603 13775 D Uvc     : [device.cpp:1756] uvc_process_streaming_status()...
+01-17 23:22:37.862 13603 13775 D Uvc     : [device.cpp:1788] strm status org=1 error event=0x07 value=0x83 len=4.
+01-17 23:22:37.862 13603 13775 D Uvc     : [device.cpp:1756] ...uvc_process_streaming_status()
+01-17 23:22:37.890 13603 14082 V IMU     : dt=0.020s accel=(3.390 1.190 0.130)m/s^2
+01-17 23:22:37.911 13603 14082 V IMU     : dt=0.029s accel=(-3.140 -0.760 1.720)m/s^2
+01-17 23:22:37.925 13603 14082 V IMU     : dt=0.021s accel=(3.630 2.090 -1.730)m/s^2
+01-17 23:22:37.957 13603 14082 V IMU     : dt=0.032s accel=(-0.990 0.140 -2.340)m/s^2
+01-17 23:22:37.979 13603 14082 V IMU     : dt=0.021s accel=(4.320 0.780 2.990)m/s^2
+01-17 23:22:38.003 13603 14082 V IMU     : dt=0.024s accel=(0.650 -0.160 -1.940)m/s^2
+01-17 23:22:38.035 13603 14082 V IMU     : dt=0.032s accel=(0.470 1.890 0.960)m/s^2
+01-17 23:22:38.054 13603 14082 V IMU     : dt=0.019s accel=(-3.890 -0.360 -0.510)m/s^2
+01-17 23:22:38.072 13603 14082 V IMU     : dt=0.019s accel=(0.420 1.240 -1.050)m/s^2
+01-17 23:22:38.121 13603 14082 V IMU     : dt=0.049s accel=(-0.590 0.450 -0.090)m/s^2
+01-17 23:22:38.137 13603 13615 I zygote  : NativeAlloc concurrent copying GC freed 93166(2MB) AllocSpace objects, 51(26MB) LOS objects, 48% free, 25MB/49MB, paused 931us total 715.999ms
+01-17 23:22:38.162 13603 14082 V IMU     : dt=0.039s accel=(-3.110 -0.680 0.960)m/s^2
+01-17 23:22:38.177 13603 14082 V IMU     : dt=0.017s accel=(2.500 2.330 1.000)m/s^2
+01-17 23:22:38.201 13603 14082 V IMU     : dt=0.024s accel=(-0.420 -0.280 2.530)m/s^2
+01-17 23:22:38.222 13603 14082 V IMU     : dt=0.020s accel=(-0.610 1.230 0.870)m/s^2
+01-17 23:22:38.242 13603 14082 V IMU     : dt=0.021s accel=(3.420 0.000 1.070)m/s^2
+01-17 23:22:38.256 13603 13710 V Robocol : received command: CMD_INIT_OP_MODE(10980) $Stop$Robot$
+01-17 23:22:38.260 13603 14082 V IMU     : dt=0.018s accel=(-0.960 -1.400 2.570)m/s^2
+01-17 23:22:38.267 13603 13709 I RobotCore: ******************** STOP - OPMODE /storage/emulated/0/FIRST/matchlogs/Match-0-6438_Chassis_Auton.txt ********************
+01-17 23:22:38.300 13603 14082 V IMU     : dt=0.034s accel=(2.220 2.180 2.230)m/s^2
+01-17 23:22:38.303 13603 14080 F Assert  : assertion failed
+01-17 23:22:38.304 13603 14141 I RobotCore: saving match logcat to /storage/emulated/0/FIRST/matchlogs/Match-0-6438_Chassis_Auton.txt
+01-17 23:22:38.304 13603 14141 I RobotCore: logging command line: exec logcat -d -T '1-17 23:22:6.000' -f /storage/emulated/0/FIRST/matchlogs/Match-0-6438_Chassis_Auton.txt -n4 -v threadtime UsbRequestJNI:S UsbRequest:S art:W ThreadPool:W System:W ExtendedExtractor:W OMXClient:W MediaPlayer:W dalvikvm:W  *:V
+01-17 23:22:38.308 13603 14080 E Assert  : java.lang.RuntimeException: assertion failed
+01-17 23:22:38.309 13603 14080 E Assert  : 	at org.firstinspires.ftc.robotcore.internal.system.Assert.assertFailed(Assert.java:127)
+01-17 23:22:38.310 13603 14080 E Assert  : 	at com.qualcomm.robotcore.util.ThreadPool.verifyNotOnExecutorThread(ThreadPool.java:616)
+01-17 23:22:38.312 13603 14082 V IMU     : dt=0.015s accel=(-0.890 0.420 -1.960)m/s^2
+01-17 23:22:38.321 13603 14080 E Assert  : 	at com.qualcomm.robotcore.util.ThreadPool.awaitTermination(ThreadPool.java:501)
+01-17 23:22:38.323 13603 14080 E Assert  : 	at com.qualcomm.robotcore.eventloop.opmode.LinearOpMode.stop(LinearOpMode.java:271)
+01-17 23:22:38.324 13603 14080 E Assert  : 	at org.firstinspires.ftc.teamcode.Team6438AutonomousBlue.runOpMode(Team6438AutonomousBlue.java:134)
+01-17 23:22:38.338 13603 14082 V IMU     : dt=0.027s accel=(0.530 0.400 -1.140)m/s^2
+01-17 23:22:38.338 13603 14080 E Assert  : 	at com.qualcomm.robotcore.eventloop.opmode.LinearOpMode$LinearOpModeHelper$1.run(LinearOpMode.java:305)
+01-17 23:22:38.339 13603 14080 E Assert  : 	at com.qualcomm.robotcore.util.ThreadPool.logThreadLifeCycle(ThreadPool.java:737)
+01-17 23:22:38.354 13603 14080 E Assert  : 	at com.qualcomm.robotcore.eventloop.opmode.LinearOpMode$LinearOpModeHelper.run(LinearOpMode.java:300)
+01-17 23:22:38.355 13603 14080 E Assert  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+01-17 23:22:38.355 13603 14082 V IMU     : dt=0.019s accel=(-2.380 -0.340 3.870)m/s^2
+01-17 23:22:38.361 13603 14080 E Assert  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+01-17 23:22:38.362 13603 14080 E Assert  : 	at com.qualcomm.robotcore.util.ThreadPool$ThreadFactoryImpl$1.run(ThreadPool.java:793)
+01-17 23:22:38.363 13603 14080 E Assert  : 	at java.lang.Thread.run(Thread.java:764)
+01-17 23:22:38.365 13603 14080 V RobotCore: thread: ...terminating 'LinearOpMode main'
+01-17 23:22:38.366 13603 14036 D Uvc     : [NativeVuforiaWebcam.h:347] NativeVuforiaWebcam::stop()...
+01-17 23:22:38.366 13603 14036 D VuforiaWebcam: nativeCallbackStop()...
+01-17 23:22:38.366 13603 14036 D VuforiaWebcam: stop()...
+01-17 23:22:38.366 13603 14036 D UsbResiliantWebcam|DelCaptureSession: stopCapture()...
+01-17 23:22:38.367 13603 14036 D UsbResiliantWebcam|DelCaptureSequence: undoStreaming()...
+01-17 23:22:38.367 13603 14036 D UvcApiCaptureSession: stopCapture()...
+01-17 23:22:38.367 13603 14036 D Uvc     : [jni_streamhandle.cpp:184] Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcStreamHandle_nativeStopStreaming()...
+01-17 23:22:38.367 13603 14036 V Uvc     : API: Java_org_firstinspires_ftc_robotcore_internal_camera_libuvc_nativeobject_UvcStreamHandle_nativeStopStreaming: enter...
+01-17 23:22:38.376 13603 14082 V IMU     : dt=0.020s accel=(-2.940 5.690 5.140)m/s^2
+01-17 23:22:38.383 13603 14036 D Uvc     : [stream.cpp:1467] uvc_stream_stop()...
+01-17 23:22:38.383 13603 14036 D UvcStream: [stream.cpp:1495] cancelling extant transfers
+01-17 23:22:38.390 13603 13711 V Robocol : sending CMD_STREAM_CHANGE(65522), attempt: 0
+01-17 23:22:38.393 13603 14082 V IMU     : dt=0.018s accel=(-0.870 6.590 3.370)m/s^2
+01-17 23:22:38.417 13603 14036 D Uvc     : [stream.cpp:1424] (waitForAllTransfers(waiting for cancelled transfers))...
+01-17 23:22:38.420 13603 13775 D UvcStream: [stream.cpp:615] bad packet: error bit set
+01-17 23:22:38.421 13603 13775 D UvcStream: [stream.cpp:615] bad packet: error bit set
+01-17 23:22:38.422 13603 13775 D UvcStream: [stream.cpp:627] frame=252: previous frame failed to send EOF
+01-17 23:22:38.424 13603 14082 V IMU     : dt=0.028s accel=(2.850 6.580 2.440)m/s^2
+01-17 23:22:38.427 13603 14139 W YuvRgbFrame.8796587733570: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:38.427 13603 14139 W YuvRgbFrame.8796587733570: RecognizeImageRunnable.postprocessDetections - got a recognition with an invalid / background label
+01-17 23:22:38.431 13603 14139 I native  : Registering the position of 201732692 at -0.99,7.67,68.79,81.62
+01-17 23:22:38.432 13603 14139 I native  : Registering the position of 201732692 at -0.99,7.67,68.79,81.62 at time 8796587733570
+01-17 23:22:38.432 13603 14036 D UvcStream: [stream.cpp:1438] no extant active transfers: continuing
+01-17 23:22:38.432 13603 14036 D Uvc     : [stream.cpp:1424] ...()
+01-17 23:22:38.433 13603 14036 D Uvc     : [stream.cpp:1142] uvc_stream_handle::stopIsochronousStreaming()...
+01-17 23:22:38.433 13603 14036 D Uvc     : [libuvc/libuvc_internal.h:828] uvc_device_handle::setInterfaceAltSetting(setInterfaceAltSetting(intf=3 alt=0))...
+01-17 23:22:38.433 13603 14036 D UvcDevice: setInterfaceAltSetting(3,0)
+01-17 23:22:38.437 13603 14082 V IMU     : dt=0.016s accel=(-2.310 7.060 0.850)m/s^2
+01-17 23:22:38.453 13603 14082 V IMU     : dt=0.016s accel=(-0.070 4.990 1.430)m/s^2
+01-17 23:22:38.455 13603 14036 D UvcDevice: setInterfaceAltSetting(3,0) succeeded
+01-17 23:22:38.455 13603 14036 D Uvc     : [libuvc/libuvc_internal.h:828] ...uvc_device_handle::setInterfaceAltSetting() rc=0
+01-17 23:22:38.455 13603 14036 D Uvc     : [stream.cpp:1142] ...uvc_stream_handle::stopIsochronousStreaming() rc=0
+01-17 23:22:38.455 13603 14036 D UvcStream: [stream.cpp:1511] awakening user thread
+01-17 23:22:38.455 13603 14036 D UvcStream: [stream.cpp:1520] waiting for user callback thread to finish
+01-17 23:22:38.468 13603 14082 V IMU     : dt=0.015s accel=(1.180 3.400 1.550)m/s^2
+01-17 23:22:38.481 13603 14140 I native  : Registering the position of 49362429 at 155.91,-2.57,269.63,145.97
+01-17 23:22:38.481 13603 14140 I native  : Registering the position of 49362429 at 155.91,-2.57,269.63,145.97 at time 8797015199965
+01-17 23:22:38.481 13603 14140 I native  : Registering the position of 232080114 at 199.21,-6.09,276.38,124.82
+01-17 23:22:38.481 13603 14140 I native  : Registering the position of 232080114 at 199.21,-6.09,276.38,124.82 at time 8797015199965
+01-17 23:22:38.482 13603 14140 I native  : Registering the position of 123694403 at 28.50,79.04,116.47,132.71
+01-17 23:22:38.482 13603 14140 I native  : Registering the position of 123694403 at 28.50,79.04,116.47,132.71 at time 8797015199965
+01-17 23:22:38.484 13603 14082 V IMU     : dt=0.016s accel=(1.230 3.720 -0.090)m/s^2
+01-17 23:22:38.500 13603 14082 V IMU     : dt=0.016s accel=(1.350 4.330 -0.360)m/s^2
+01-17 23:22:38.516 13603 14082 V IMU     : dt=0.016s accel=(-1.010 1.390 1.450)m/s^2
+01-17 23:22:38.533 13603 14082 V IMU     : dt=0.016s accel=(1.250 2.570 1.190)m/s^2
+01-17 23:22:38.548 13603 14082 V IMU     : dt=0.016s accel=(1.750 4.610 -0.180)m/s^2
